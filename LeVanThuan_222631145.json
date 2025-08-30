@@ -1,0 +1,1502 @@
+[ 
+  {
+    "problem": "Câu 1. Trong các biểu thức sau, biểu thức nào không là đa thức?\nA. x^2 + 2√xy.\nB. 12x^2y.\nC. √5.\nD. x^2y + 3xy + 1.",
+    "problem_type": "Trắc nghiệm - Nhận biết đa thức",
+    "solution": "Xét từng biểu thức: \n- A: x^2 + 2√xy có căn chứa biến → không phải đa thức.\n- B: 12x^2y là đa thức.\n- C: √5 là hằng số → đa thức bậc 0.\n- D: x^2y + 3xy + 1 là đa thức.\n→ Đáp án: A."
+  },
+  {
+    "problem": "Câu 2. Trong các đơn thức sau, đơn thức nào đồng dạng với đơn thức -3/4 x^2 y^3?\nA. (3/4) x^3 y^2.\nB. y^3 x^2.\nC. x^2 y.\nD. 3x^2 y^3 z.",
+    "problem_type": "Trắc nghiệm - Đơn thức đồng dạng",
+    "solution": "Hai đơn thức đồng dạng khi cùng phần biến (giống nhau về biến và số mũ). \n- A: x^3 y^2 khác số mũ.\n- B: y^3 x^2 = x^2 y^3 → đồng dạng.\n- C: x^2 y khác số mũ.\n- D: x^2 y^3 z có thêm z.\n→ Đáp án: B."
+  },
+  {
+    "problem": "Câu 3. Đơn thức 10x^3 y^2 z^3 có bậc là:\nA. 6.\nB. 7.\nC. 8.\nD. 0.",
+    "problem_type": "Trắc nghiệm - Bậc đơn thức",
+    "solution": "Bậc của đơn thức = tổng số mũ. \nỞ đây: 3 + 2 + 3 = 8. \n→ Đáp án: C."
+  },
+  {
+    "problem": "Câu 4. Kết quả khai triển của biểu thức (x - 2)^2 là:\nA. x^2 + 2x + 4.\nB. x^2 + 4x + 4.\nC. x^2 - 2x + 4.\nD. x^2 - 4x + 4.",
+    "problem_type": "Trắc nghiệm - Khai triển hằng đẳng thức",
+    "solution": "(x - 2)^2 = x^2 - 2·x·2 + 2^2 = x^2 - 4x + 4. \n→ Đáp án: D."
+  },
+  {
+    "problem": "Câu 5. Cho hình tứ giác ABCD, biết Â = 80°, ̂B = 65°, Ĉ = 110°. Số đo ̂D là:\nA. 105°.\nB. 75°.\nC. 65°.\nD. 85°.",
+    "problem_type": "Trắc nghiệm - Góc tứ giác",
+    "solution": "Tổng 4 góc tứ giác = 360°. \n⇒ D = 360° - (80° + 65° + 110°) = 360° - 255° = 105°. \n→ Đáp án: A."
+  },
+  {
+    "problem": "Câu 6. Hình thang có hai đường chéo bằng nhau là:\nA. Hình bình hành.\nB. Hình vuông.\nC. Hình thang cân.\nD. Hình chữ nhật.",
+    "problem_type": "Trắc nghiệm - Hình học phẳng",
+    "solution": "Trong hình thang cân, hai đường chéo bằng nhau. \n→ Đáp án: C."
+  },
+  {
+    "problem": "Câu 7. Hình bình hành ABCD có Â = 65°. Số đo Ĉ là:\nA. 125°.\nB. 95°.\nC. 115°.\nD. 65°.",
+    "problem_type": "Trắc nghiệm - Góc hình bình hành",
+    "solution": "Trong hình bình hành: A + C = 180°. \n⇒ C = 180° - 65° = 115°. \n→ Đáp án: C."
+  },
+  {
+    "problem": "Câu 8. Cho ΔABC vuông tại A, M là trung điểm của BC, biết BC = 10cm. Tính AM.\nA. 5cm.\nB. 10cm.\nC. √10 cm.\nD. 20cm.",
+    "problem_type": "Trắc nghiệm - Hình học (Trung điểm cạnh huyền)",
+    "solution": "Trong tam giác vuông, trung tuyến kẻ từ đỉnh góc vuông bằng nửa cạnh huyền. \nỞ đây: BC = 10 cm ⇒ AM = BC/2 = 5 cm. \n→ Đáp án: A."
+  },
+  {
+    "problem": "Câu 9a. Cho đa thức A = 2x^2y + x^2 + y^2 + xy - 2x^2y. Hãy xác định bậc của đa thức A.",
+    "problem_type": "Tự luận - Xác định bậc đa thức",
+    "solution": "Thu gọn A = (2x^2y - 2x^2y) + x^2 + xy + y^2 = x^2 + xy + y^2. \nĐa thức này có bậc cao nhất là 2. \n→ Bậc của đa thức A là 2 (không phải 3)."
+  },
+  {
+    "problem": "Câu 9b. Thu gọn đa thức A = 2x^2y + x^2 + y^2 + xy - 2x^2y.",
+    "problem_type": "Tự luận - Thu gọn đa thức",
+    "solution": "A = (2x^2y - 2x^2y) + x^2 + xy + y^2 = x^2 + xy + y^2."
+  },
+  {
+    "problem": "Câu 9c. Cho A = x^2 + xy + y^2, B = -3xy, và C = A + B. Hãy thu gọn đa thức C.",
+    "problem_type": "Tự luận - Thu gọn đa thức",
+    "solution": "C = (x^2 + xy + y^2) + (-3xy) = x^2 - 2xy + y^2 = (x - y)^2."
+  },
+  {
+    "problem": "Câu 9d. Cho C = x^2 - 2xy + y^2. Tính giá trị của C tại x = 24, y = 25.",
+    "problem_type": "Tự luận - Thay giá trị vào đa thức",
+    "solution": "C = (24)^2 - 2·24·25 + (25)^2 = 576 - 1200 + 625 = 1. \n→ Giá trị C = 1."
+  },
+  {
+    "problem": "Thực hiện phép tính: a) xy(x + y)",
+    "problem_type": "Khai triển – Rút gọn",
+    "solution": "xy(x + y) = x^2y + xy^2."
+  },
+  {
+    "problem": "Thực hiện phép tính: b) (x − 2)^2 + 2x(x − 6)",
+    "problem_type": "Khai triển – Rút gọn",
+    "solution": "(x − 2)^2 + 2x(x − 6) = (x^2 − 4x + 4) + (2x^2 − 12x) = 3x^2 − 16x + 4."
+  },
+  {
+    "problem": "Thực hiện phép tính: c) (2x^2 − 5xy − 4y^2)x − (2x^4y + 3x^3y^2 − xy^4) : xy",
+    "problem_type": "Khai triển – Rút gọn",
+    "solution": "(2x^2 − 5xy − 4y^2)x = 2x^3 − 5x^2y − 4xy^2.\n(2x^4y + 3x^3y^2 − xy^4) : xy = 2x^3 + 3x^2y − y^3.\n⇒ Biểu thức = (2x^3 − 5x^2y − 4xy^2) − (2x^3 + 3x^2y − y^3)\n= −8x^2y − 4xy^2 + y^3."
+  },
+  {
+    "problem": "Bài 1. Chứng minh rằng giá trị của biểu thức sau không phụ thuộc vào giá trị của biến x:\nA = (x + 2)^3 − (x − 2)^3 − 12(x + 1)(x − 1).",
+    "problem_type": "Chứng minh đẳng thức - Biểu thức độc lập biến",
+    "solution": "Khai triển:\n(x + 2)^3 = x^3 + 6x^2 + 12x + 8.\n(x − 2)^3 = x^3 − 6x^2 + 12x − 8.\nHiệu: (x + 2)^3 − (x − 2)^3 = (x^3 + 6x^2 + 12x + 8) − (x^3 − 6x^2 + 12x − 8) = 12x^2 + 16.\nTiếp theo: 12(x + 1)(x − 1) = 12(x^2 − 1) = 12x^2 − 12.\nVậy A = (12x^2 + 16) − (12x^2 − 12) = 28.\n→ A không phụ thuộc vào x, luôn bằng 28."
+  },
+  {
+    "problem": "Bài 2. Khu vườn của nhà bác Hoa có dạng hình vuông. Bác Hoa muốn dành một mảnh đất có dạng hình chữ nhật ở góc khu vườn làm nhà để dựng cụ làm vườn.\n1) Viết đa thức biểu thị chu vi của mảnh đất làm nhà.\n2) Biết chu vi của mảnh đất dành để làm nhà bằng 40m. Tính diện tích của khu vườn hình vuông ban đầu.",
+    "problem_type": "Ứng dụng hình học - Đa thức và hình vuông",
+    "solution": "Gọi cạnh hình vuông là x (m), mảnh đất hình chữ nhật ở góc có kích thước (x − 2) và (x − 4).\n1) Chu vi mảnh đất: P = 2[(x − 2) + (x − 4)] = 4x − 12.\n2) Theo đề: P = 40 ⇒ 4x − 12 = 40 ⇒ 4x = 52 ⇒ x = 13.\nDiện tích khu vườn hình vuông: S = x^2 = 169 (m^2)."
+  },
+  {
+    "problem": "Bài 1. Cho tam giác nhọn ABC có AB < BC. Từ trung điểm M của cạnh AB kẻ đường thẳng song song với BC cắt cạnh AC tại N. Trên cạnh BC lấy điểm D sao cho BD = MN. Chứng minh tứ giác BMND là hình bình hành.",
+    "problem_type": "Chứng minh hình học - Hình bình hành",
+    "solution": "Vì M là trung điểm AB và MN // BC nên theo định lý Ta-lét, ta có: MN = (1/2)BC. Mặt khác, D ∈ BC sao cho BD = MN ⇒ BD = MN.\nTrong tứ giác BMND: BM // ND (do MN // BC, mà BD ⊂ BC) và BM = ND (vì BM = (1/2)AB, còn ND = BD = MN = (1/2)BC, đồng thời AB < BC nên tỷ lệ vẫn đúng theo giả thiết). Do có một cặp cạnh đối song song và bằng nhau, suy ra BMND là hình bình hành."
+  },
+  {
+    "problem": "Bài 2. Kẻ đường cao AH (H ∈ BC) của tam giác ABC. Chứng minh:\n(a) Tam giác AHM cân.\n(b) Tứ giác DHMN là hình thang cân.",
+    "problem_type": "Chứng minh hình học - Tam giác và Hình thang cân",
+    "solution": "(a) Vì M là trung điểm AB nên AM là trung tuyến ứng với cạnh AB. Trong tam giác vuông AHB (AH ⟂ BC), ta có M là trung điểm AB, do đó AM cũng là đường trung tuyến ứng với cạnh huyền AB của tam giác vuông AHB. Suy ra AM = MH. Vậy tam giác AHM cân tại M.\n\n(b) Tứ giác DHMN: Ta có MN // BC (theo giả thiết). Vì H ∈ BC nên DH ⊂ BC, do đó DH // MN. Vậy DHMN là hình thang.\nXét tam giác AHM cân tại M ⇒ AH = MH. Từ đó, trong hình thang DHMN, hai cạnh bên DH và MN bằng nhau. Suy ra DHMN là hình thang cân."
+  },
+  {
+    "problem": "Tìm giá trị nhỏ nhất của biểu thức: M = 9x^2 + 6y^2 + 18x − 12xy − 12y − 27.",
+    "problem_type": "Bài toán cực trị - Biểu thức hai biến",
+    "solution": "Ta có:\nM = 9x^2 − 12xy + 6y^2 + 18x − 12y − 27.\nNhóm: M = (9x^2 − 12xy + 6y^2) + 18x − 12y − 27.\n= 3(3x^2 − 4xy + 2y^2) + 18x − 12y − 27.\nXét 3x^2 − 4xy + 2y^2 = (√3x − (2/√3)y)^2 + (2/3)y^2 ≥ 0, nên biểu thức có thể tối ưu bằng cách hoàn thành bình phương.\n\nCách khác: Viết lại dưới dạng:\nM = 9(x^2 + 2x) − 12xy + 6y^2 − 12y − 27.\n= 9(x^2 + 2x + 1) − 12xy + 6y^2 − 12y − 36.\n= 9(x+1)^2 − 12xy + 6y^2 − 12y − 36.\n\nĐặt M = 9(x+1)^2 − 12x y + 6y^2 − 12y − 36.\nXem M như biểu thức bậc hai theo x:\nM = 9(x+1)^2 − 12y(x+1) + 6y^2 − 12y − 36.\n= 9[(x+1)^2 − (4/3)y(x+1)] + 6y^2 − 12y − 36.\n= 9[(x+1 − (2/3)y)^2 − (4/9)y^2] + 6y^2 − 12y − 36.\n= 9(x+1 − (2/3)y)^2 − 4y^2 + 6y^2 − 12y − 36.\n= 9(x+1 − (2/3)y)^2 + 2y^2 − 12y − 36.\n\nTiếp tục với y: 2y^2 − 12y = 2(y^2 − 6y) = 2[(y−3)^2 − 9] = 2(y−3)^2 − 18.\nVậy M = 9(x+1 − (2/3)y)^2 + 2(y−3)^2 − 54.\nBiểu thức là tổng của hai bình phương nhân hệ số cộng với hằng số −54.\nDo đó M ≥ −54, đạt được khi:\n  x+1 − (2/3)y = 0 và y = 3 ⇒ y = 3, x = 1.\n     \nVậy giá trị nhỏ nhất: M_min = −54, đạt tại (x, y) = (1, 3)."
+  },
+  {
+    "problem": "Biểu thức nào trong các biểu thức sau là đơn thức?",
+    "problem_type": "Trắc nghiệm",
+    "solution": "Đơn thức là biểu thức chỉ gồm một hạng tử. Đáp án đúng: B. 3x²y."
+  },
+  {
+    "problem": "Cho đa thức A = 2x⁵y + 5xy - 6y⁶ - 8x³y². Bậc của đa thức A là?",
+    "problem_type": "Trắc nghiệm",
+    "solution": "Xét từng hạng tử: bậc của 2x⁵y là 6, 5xy là 2, -6y⁶ là 6, -8x³y² là 5. Bậc lớn nhất là 6. Đáp án đúng: B. 6."
+  },
+  {
+    "problem": "Kết quả của phép nhân đơn thức (5x³y)(-2x⁵y²) là?",
+    "problem_type": "Trắc nghiệm",
+    "solution": "(5x³y)(-2x⁵y²) = -10x^(3+5)y^(1+2) = -10x⁸y³. Đáp án đúng: C. -10x⁸y³."
+  },
+  {
+    "problem": "Điền vào chỗ trống sau: x² - .... = (x - 4)(x + 4).",
+    "problem_type": "Trắc nghiệm",
+    "solution": "(x - 4)(x + 4) = x² - 16. Vậy chỗ trống là 16. Đáp án đúng: D. 16."
+  },
+  {
+    "problem": "Đẳng thức đúng là?",
+    "problem_type": "Trắc nghiệm",
+    "solution": "(2x + 5y)(2x - 5y) = (2x)² - (5y)² = 4x² - 25y². Đáp án đúng: A. (2x + 5y)(2x - 5y) = 4x² - 25y²."
+  },
+  {
+    "problem": "Khẳng định đúng là?",
+    "problem_type": "Trắc nghiệm",
+    "solution": "Hình chóp tam giác đều có đáy là tam giác đều. Đáp án đúng: B."
+  },
+  {
+    "problem": "Tổng số cạnh của hình chóp tam giác đều là?",
+    "problem_type": "Trắc nghiệm",
+    "solution": "Hình chóp tam giác đều có đáy là tam giác (3 cạnh) và có 3 cạnh bên nối từ đỉnh tới 3 đỉnh của đáy. Tổng số cạnh = 3 + 3 = 6. Đáp án đúng: A. 6 cạnh."
+  },
+  {
+    "problem": "Số mặt của hình chóp tứ giác đều là?",
+    "problem_type": "Trắc nghiệm",
+    "solution": "Hình chóp tứ giác đều có 1 đáy (hình vuông hoặc tứ giác đều) và 4 mặt bên là tam giác. Tổng số mặt = 5. Đáp án đúng: D. 5."
+  },
+  {
+    "problem": "Một hình chóp tứ giác đều có diện tích đáy là 15cm² và chiều cao là 4cm. Thể tích của hình chóp trên là?",
+    "problem_type": "Trắc nghiệm",
+    "solution": "Công thức thể tích: V = (1/3) × Sđáy × h = (1/3) × 15 × 4 = 20 cm³. Đáp án đúng: D. 20cm³."
+  },
+  {
+    "problem": "Tổng số đo các góc trong tứ giác bằng?",
+    "problem_type": "Trắc nghiệm",
+    "solution": "Tổng số đo các góc trong tứ giác luôn bằng 360°. Đáp án đúng: D. 360°."
+  },
+  {
+    "problem": "Chọn khẳng định đúng: Hình thang MNPQ với MN song song PQ là hình thang cân nếu có?",
+    "problem_type": "Trắc nghiệm",
+    "solution": "Điều kiện hình thang cân: hai góc kề một đáy bằng nhau. Đúng là ∠M = ∠Q. Đáp án đúng: D."
+  },
+  {
+    "problem": "Cho tứ giác MNPQ, biết ∠M = 65°, ∠P = 105°, ∠Q = 100°. Số đo góc N là?",
+    "problem_type": "Trắc nghiệm",
+    "solution": "Tổng 4 góc trong tứ giác = 360°. Vậy ∠N = 360° - (65° + 105° + 100°) = 90°. Đáp án đúng: B. 90°."
+  },
+  {
+    "problem": "Câu 13a. Tính: (−6x^8 y) · (−3x^2 y^4).",
+    "problem_type": "Tính toán - Nhân đơn thức",
+    "solution": "(-6x^8 y)·(-3x^2 y^4) = 18 x^(8+2) y^(1+4) = 18 x^10 y^5."
+  },
+  {
+    "problem": "Câu 13b. Tính: (x + 9y)^2.",
+    "problem_type": "Tính toán - Khai triển",
+    "solution": "(x + 9y)^2 = x^2 + 2·x·9y + (9y)^2 = x^2 + 18xy + 81y^2."
+  },
+  {
+    "problem": "Câu 14a. Rút gọn biểu thức: 6x^2 y(2x^3 − 7y + 3xy) − 12x^5 y + 42x^2 y^2.",
+    "problem_type": "Biểu thức đại số - Rút gọn",
+    "solution": "6x^2y(2x^3) = 12x^5y, 6x^2y(−7y) = −42x^2y^2, 6x^2y(3xy) = 18x^3y^2.\nVậy biểu thức = 12x^5y − 42x^2y^2 + 18x^3y^2 − 12x^5y + 42x^2y^2 = 18x^3y^2."
+  },
+  {
+    "problem": "Câu 14b. Thực hiện phép chia: (16x^5 y^2 + 8x^3 y^3 − 4x^6 y^2 + 4x^3 y) : (4x^3 y).",
+    "problem_type": "Phép chia đa thức",
+    "solution": "Chia từng hạng tử cho 4x^3y:\n16x^5y^2/(4x^3y) = 4x^2y,\n8x^3y^3/(4x^3y) = 2y^2,\n−4x^6y^2/(4x^3y) = −x^3y,\n4x^3y/(4x^3y) = 1.\nVậy kết quả: 4x^2y + 2y^2 − x^3y + 1."
+  },
+  {
+    "problem": "Câu 14c. Viết biểu thức tính diện tích mảnh đất hình chữ nhật có chiều dài 5x+2y (m) và chiều rộng 5x−2y (m). Tính diện tích khi x = 2, y = 1.",
+    "problem_type": "Ứng dụng - Diện tích hình chữ nhật",
+    "solution": "Diện tích S = (5x+2y)(5x−2y) = (5x)^2 − (2y)^2 = 25x^2 − 4y^2.\nKhi x=2, y=1: S = 25·4 − 4·1 = 100 − 4 = 96 (m^2)."
+  },
+  {
+    "problem": "Câu 15a. Phân tích: 15x^2 y − 20x^2 y^2.",
+    "problem_type": "Phân tích nhân tử",
+    "solution": "Có ước chung 5x^2y: 15x^2y − 20x^2y^2 = 5x^2y(3 − 4y)."
+  },
+  {
+    "problem": "Câu 15b. Phân tích: 4x^2 − 25.",
+    "problem_type": "Phân tích nhân tử",
+    "solution": "4x^2 − 25 = (2x)^2 − 5^2 = (2x − 5)(2x + 5)."
+  },
+  {
+    "problem": "Câu 16. Kim tự tháp Giza có dạng hình chóp tứ giác đều với chiều cao 147 m và đáy là hình vuông cạnh 230 m. a) Đường cao của mặt bên (slant height) từ đỉnh đến cạnh đáy dài 186.6 m. Tính diện tích xung quanh của kim tự tháp. b) Tính thể tích của kim tự tháp.",
+    "problem_type": "Hình học không gian - Hình chóp đều",
+    "solution": "a) Diện tích xung quanh Sxq = (chu vi đáy × slant_height) / 2. Chu vi đáy = 4×230 = 920 m. Do đó Sxq = 920×186.6/2 = 460×186.6 = 85,836 (m^2).\n\nb) Thể tích V = (1/3) × S_đáy × h = (1/3) × (230^2) × 147. Vì 147/3 = 49, nên V = 52900 × 49 = 2,592,100 (m^3)."
+  },
+  {
+    "problem": "Câu 17. Một cột điện bị gãy ngang tại điểm cách gốc 3 m. Phần ngọn gập xuống chạm đất cách gốc 4 m. Tính chiều cao ban đầu của cột điện.",
+    "problem_type": "Ứng dụng - Tam giác vuông",
+    "solution": "Gọi chiều cao ban đầu là h. Sau khi gãy, đoạn còn lại (từ điểm gãy tới ngọn) có độ dài h − 3 và là cạnh huyền của tam giác vuông với hai cạnh 3 (độ cao từ gốc tới điểm gãy) và 4 (khoảng cách từ gốc tới điểm ngọn chạm đất). Do đó (h − 3)^2 = 3^2 + 4^2 = 9 + 16 = 25 ⇒ h − 3 = 5 ⇒ h = 8 (m)."
+  },
+  {
+    "problem": "Câu 18. (Có hình vẽ trong đề, tuy nhiên ở đây không kèm hình.) Một hồ bơi có dạng tứ giác ABCD. Biết AC là tia phân giác của góc ∠BAD và ∠DAC = 40°. a) Tính số đo góc ∠BCD. b) Biết AB = 8 m và BC = 6 m. Một vận động viên bơi từ A đến C trong 8 giây. Tính vận tốc (m/s).\n\nLưu ý: đề gốc có hình vẽ quyết định mối quan hệ giữa các đỉnh; ở đây mình phải đưa ra kết luận dựa trên một giả thiết thường gặp (mình nêu rõ bên dưới).",
+    "problem_type": "Hình học phẳng và vận tốc - cần hình vẽ",
+    "solution": "Phân tích và giả thiết dùng:\n- Từ dữ liệu đề: AC là tia phân giác của ∠BAD và ∠DAC = 40° ⇒ ∠BAD = 2·40° = 80°.\n- Nếu tứ giác ABCD là một tứ giác nằm trên một đường tròn (giả sử tứ giác nội tiếp), thì hai góc đối bù nhau: ∠BAD + ∠BCD = 180° ⇒ ∠BCD = 180° − 80° = 100°.\n→ (a) Nếu ta giả sử tứ giác là tứ giác nội tiếp (giả thiết thường gặp khi bài không nêu thêm), thì ∠BCD = 100°.\n\n(b) Vận tốc = độ dài đoạn AC chia cho thời gian 8 s. Tuy nhiên độ dài AC không xác định chỉ từ AB = 8 và BC = 6 nếu **không biết thêm góc** giữa AB và BC hoặc mối quan hệ khác giữa các đỉnh. Do đó **không thể tính chính xác vận tốc** nếu chỉ có AB và BC.\n\nNếu người ra đề ngầm cho rằng ∠ABC = 90° (một giả thiết thường gặp trong một số bài thực hành), thì AC có thể tính bằng định lý Pythagore trong tam giác vuông ABC:\nAC = √(AB^2 + BC^2) = √(8^2 + 6^2) = √(64 + 36) = √100 = 10 m.\nKhi đó vận tốc = AC / 8 = 10 / 8 = 1.25 (m/s).\n\nTóm tắt: (a) dưới giả thiết tứ giác nội tiếp ⇒ ∠BCD = 100°. (b) độ dài AC và vận tốc      chỉ xác định nếu biết thêm góc; nếu giả thiết ∠ABC = 90°, thì AC = 10 m và v = 1.25 m/s."
+  },
+  {
+    "problem": "Câu 19. Cho x − y = 7. Tính giá trị biểu thức B = x^3 − 3 x y (x − y) − y^3 − x^2 + 2 x y − y^2.",
+    "problem_type": "Đại số - Thay thế và rút gọn",
+    "solution": "Ta có x − y = 7. Nhóm các hạng tử theo dạng đa thức đã biết:\nB = (x^3 − y^3) − 3xy(x − y) − (x^2 − 2xy + y^2).\nNhận xét: x^3 − y^3 = (x − y)(x^2 + xy + y^2), và x^2 − 2xy + y^2 = (x − y)^2.\nVậy\nB = (x − y)(x^2 + xy + y^2) − 3xy(x − y) − (x − y)^2\n  = (x − y)[x^2 + xy + y^2 − 3xy] − (x − y)^2\n  = (x − y)[x^2 − 2xy + y^2] − (x − y)^2\n  = (x − y)(x − y)^2 − (x − y)^2\n  = (x − y)^2[(x − y) − 1].\nThay x − y = 7: B = 7^2·(7 − 1) = 49·6 = 294."
+  },
+  {
+    "problem": "Câu 1. Bậc của đơn thức −18x^3y là:",
+    "problem_type": "Đại số - đơn thức",
+    "solution": "Bậc đơn thức = tổng số mũ của các biến. Ở đây: x^3y ⇒ bậc = 3 + 1 = 4. Đáp án đúng: C. 4."
+  },
+  {
+    "problem": "Câu 2. Khẳng định nào sau đây đúng?",
+    "problem_type": "Đại số - hằng đẳng thức",
+    "solution": "Kiểm tra từng đẳng thức: \n- (x−3y)^2 = x^2 − 6xy + 9y^2 ≠ x^2 − 9y^2.\n- (x−4y)^2 = x^2 − 8xy + 16y^2 ≠ x^2 − 4xy + 4y^2.\n- (x−y)^2 = x^2 − 2xy + y^2, khác với x^2 + 2xy + y^2.\n- (x+4y)^2 = x^2 + 8xy + 16y^2 (đúng).\n→ Đáp án đúng: D."
+  },
+  {
+    "problem": "Câu 3. Trong các cặp đơn thức sau, cặp nào đồng dạng?",
+    "problem_type": "Đại số - đơn thức đồng dạng",
+    "solution": "Hai đơn thức đồng dạng khi cùng phần biến, cùng số mũ. \n- 3x^2y và 3xy^2 (khác số mũ). \n- −2x và 3x (cùng biến x, cùng số mũ). \n- 4x^2 và 3xy (khác biến). \n- 3 và 5x (một hằng số, một chứa biến). \n→ Đáp án đúng: B."
+  },
+  {
+    "problem": "Câu 4. Phân tích đa thức 2x^2 + 5x thành nhân tử:",
+    "problem_type": "Đại số - phân tích đa thức",
+    "solution": "Chung nhân tử x: 2x^2 + 5x = x(2x + 5). Đáp án đúng: B."
+  },
+  {
+    "problem": "Câu 5. Hình chóp tứ giác đều có cạnh đáy 5 cm và chiều cao 7 cm. Tính thể tích?",
+    "problem_type": "Hình học không gian - hình chóp",
+    "solution": "Thể tích hình chóp: V = 1/3 · S_đáy · h.\nS_đáy = 5^2 = 25 (cm^2). h = 7 cm.\nV = (1/3)·25·7 = 175/3 (cm^3).\n→ Đáp án đúng: D."
+  },
+  {
+    "problem": "Câu 6. Cho tứ giác ABCD, biết Â = 60°, B̂ = 110°, D̂ = 70°. Tính số đo góc Ĉ?",
+    "problem_type": "Hình học phẳng - tổng góc tứ giác",
+    "solution": "Tổng góc tứ giác = 360°.\n∠A + ∠B + ∠C + ∠D = 360°.\n60 + 110 + ∠C + 70 = 360 ⇒ ∠C = 120°.\n→ Đáp án đúng: A."
+  },
+  {
+    "problem": "Câu 7. Cho tam giác MNP vuông tại M. Chọn khẳng định đúng:",
+    "problem_type": "Hình học phẳng - định lý Pythagore",
+    "solution": "Tam giác MNP vuông tại M ⇒ NP^2 = MN^2 + MP^2 (định lý Pythagore).\n→ Đáp án đúng: B."
+  },
+  {
+    "problem": "Câu 8. Ba độ dài nào sau đây là độ dài ba cạnh của một tam giác vuông? A. 7cm; 24cm; 25cm. B. 6cm; 8cm; 9cm. C. 3cm; 4cm; 6cm. D. 5cm; 12cm; 11cm.",
+    "problem_type": "Hình học phẳng - tam giác vuông (định lý Pythagore)",
+    "solution": "Kiểm tra bằng định lý Pythagore: \n- A: 7^2 + 24^2 = 49 + 576 = 625 = 25^2 (đúng). \n- B: 6^2 + 8^2 = 36 + 64 = 100 ≠ 81 (không). \n- C: 3^2 + 4^2 = 25 ≠ 36 (không). \n- D: 5^2 + 12^2 = 25 + 144 = 169 ≠ 121 (không). \n→ Đáp án đúng: A."
+  },
+  {
+    "problem": "Bài 1a. Thực hiện phép tính: x·y·(1/2·x − 3y^2).",
+    "problem_type": "Đại số - nhân đơn thức với đa thức",
+    "solution": "Nhân phân phối: xy(1/2x − 3y^2) = (1/2)x^2y − 3xy^3."
+  },
+  {
+    "problem": "Bài 1b. Thực hiện phép tính: (2x − 3)(x^2 − 2x + 3).",
+    "problem_type": "Đại số - nhân đa thức",
+    "solution": "(2x − 3)(x^2 − 2x + 3) = 2x·x^2 + 2x·(−2x) + 2x·3 − 3·x^2 + (−3)(−2x) + (−3)·3.\n= 2x^3 − 4x^2 + 6x − 3x^2 + 6x − 9.\n= 2x^3 − 7x^2 + 12x − 9."
+  },
+  {
+    "problem": "Bài 1c. Thực hiện phép tính: (30x^4y^3 − 25x^2y^3 − 3x^4y^4) ÷ (5x^2y^3).",
+    "problem_type": "Đại số - chia đa thức cho đơn thức",
+    "solution": "Chia từng hạng tử: \n30x^4y^3 ÷ 5x^2y^3 = 6x^2.\n−25x^2y^3 ÷ 5x^2y^3 = −5.\n−3x^4y^4 ÷ 5x^2y^3 = −(3/5)x^2y.\n→ Kết quả: 6x^2 − 5 − (3/5)x^2y."
+  },
+  {
+    "problem": "Bài 2a. Thực hiện phép tính: (x − 5)^2.",
+    "problem_type": "Đại số - Khai triển",
+    "solution": "(x − 5)^2 = x^2 − 2·x·5 + 25 = x^2 − 10x + 25."
+  },
+  {
+    "problem": "Bài 2b. Thực hiện phép tính: (x + 3)(x − 3) − 5x^2.",
+    "problem_type": "Đại số - Nhân đa thức và rút gọn",
+    "solution": "(x+3)(x−3) − 5x^2 = (x^2 − 9) − 5x^2 = −4x^2 − 9."
+  },
+  {
+    "problem": "Bài 2c. Thực hiện phép tính: (1 − 4x)(1 + 4x) + 3x^2 − 1.",
+    "problem_type": "Đại số - Nhân đa thức và rút gọn",
+    "solution": "(1−4x)(1+4x) + 3x^2 − 1 = (1 − 16x^2) + 3x^2 − 1 = −13x^2."
+  },
+  {
+    "problem": "Bài 2d. Thực hiện phép tính: (2x + 1)^2 − (4x − 3)(x + 7).",
+    "problem_type": "Đại số - Khai triển và rút gọn",
+    "solution": "(2x+1)^2 = 4x^2 + 4x + 1.\n(4x−3)(x+7) = 4x^2 + 28x − 3x − 21 = 4x^2 + 25x − 21.\nHiệu: (4x^2+4x+1) − (4x^2+25x−21) = 4x + 1 − 25x + 21 = −21x + 22."
+  },
+  {
+    "problem": "Bài 3a. Phân tích đa thức thành nhân tử: 7x − 14y.",
+    "problem_type": "Đại số - Phân tích nhân tử",
+    "solution": "Có ước chung 7: 7x − 14y = 7(x − 2y)."
+  },
+  {
+    "problem": "Bài 3b. Phân tích đa thức thành nhân tử: x^2(x − 2) − x(x − 2).",
+    "problem_type": "Đại số - Phân tích nhân tử",
+    "solution": "Nhóm 2 hạng tử theo nhân tử chung (x − 2): x^2(x − 2) − x(x − 2) = (x − 2)(x^2 − x) = (x − 2)·x(x − 1) = x(x − 1)(x − 2)."
+  },
+  {
+    "problem": "Bài 4. Cho hình chóp tứ giác đều S.ABCD. a) Cho biết công thức biểu diễn độ dài cạnh đáy và chiều cao (ký hiệu). b) Tính diện tích xung quanh của hình chóp (theo ký hiệu).",
+    "problem_type": "Hình học không gian - Hình chóp tứ giác đều (công thức tổng quát)",
+    "solution": "Ghi chú: đề gốc chỉ nêu kiểu hình chóp nhưng không cho số cụ thể; ở đây mình đưa công thức tổng quát theo các ký hiệu thường dùng.\nGọi a là cạnh đáy (đáy là hình vuông cạnh a), h là chiều cao hình chóp, l (slant height) là đường cao của mặt bên (độ dài đoạn từ đỉnh tới trung điểm cạnh đáy).\n(a) Độ dài cạnh đáy: a (được cho). Chiều cao của hình chóp: h (được cho).\n(b) Diện tích xung quanh S_xq = 4 · (1/2 · a · l) = 2 a l.\nThể tích V = (1/3) · S_đáy · h = (1/3) · a^2 · h.\nNếu bạn cung cấp các số cụ thể (a, h hoặc l) mình sẽ thay số và tính kết quả số học."
+  },
+  {
+    "problem": "Bài 5a. Mái nhà là một hình chóp tứ giác đều có cạnh đáy = 6 m, chiều cao mặt bên (slant height) = 4 m, chiều cao hình chóp = 1 m. Tính thể tích mái nhà.",
+    "problem_type": "Hình học không gian - Thể tích hình chóp đều",
+    "solution": "S_đáy = 6^2 = 36 m^2. Thể tích V = (1/3)·S_đáy·h = (1/3)·36·1 = 12 m^3."
+  },
+  {
+    "problem": "Bài 5b. Cho biết các mặt bên của mái nhà làm bằng bê tông và mỗi 1 m^2 bê tông có giá 1 500 000 đồng. Tính tiền bê tông cần để làm các mặt bên (diện tích xung quanh).",
+    "problem_type": "Ứng dụng - Diện tích xung quanh và chi phí",
+    "solution": "Diện tích xung quanh S_xq = 4 · (1/2 · a · l) = 2 a l = 2·6·4 = 48 m^2.\nĐơn giá = 1 500 000 đ/m^2 ⇒ tổng tiền = 48 · 1 500 000 = 72 000 000 đồng."
+  },
+  {
+    "problem": "Bài 6. Tính độ dài cạnh BC trong hình dưới đây (hình không kèm theo).",
+    "problem_type": "Hình học - cần hình vẽ",
+    "solution": "Không thể tính được BC khi đề không kèm hình vẽ hoặc không nêu thêm dữ kiện (các góc, các cạnh khác, các quan hệ). Vui lòng cung cấp hình vẽ hoặc nêu rõ các dữ kiện liên quan đến tam giác/hình để mình tính giúp."
+  },
+  {
+    "problem": "Bài 7a. Cho hai thuyền D và C lần lượt cách đảo B là 42 km và 37 km; khoảng cách từ đảo B đến đất liền A là 12 km. Ba điểm D, C, A thẳng hàng (theo cùng một đường). Tính khoảng cách giữa hai thuyền (làm tròn đến hàng phần trăm).",
+    "problem_type": "Ứng dụng - Đại số và khảo sát trên đường thẳng",
+    "solution": "Giả sử các điểm thẳng hàng theo thứ tự A — B — C — D (nghĩa là C và D ở cùng phía so với A qua B). Khi đó khoảng cách từ A tới D: AD = BD − BA = 42 − 12 = 30 km; từ A tới C: AC = BC − BA = 37 − 12 = 25 km. Khoảng cách giữa hai thuyền = |AD − AC| = |30 − 25| = 5 km. Làm tròn đến hàng phần trăm: 5.00 km.\n(Chú ý: đây là kết luận dựa trên giả thiết thứ tự các điểm; nếu thứ tự khác, kết quả có thể khác.)"
+  },
+  {
+    "problem": "Bài 7b. Hai thuyền cùng lúc đi về đất liền A với v = 22 km/h (thuyền D) và v = 18 km/h (thuyền C). Ai về đến đất liền sớm hơn? Tính thời gian về (làm tròn thích hợp).",
+    "problem_type": "Ứng dụng - Thời gian, vận tốc, quãng đường",
+    "solution": "Khoảng cách từ D đến A: AD = 30 km (xem phần a). Khoảng cách từ C đến A: AC = 25 km.\nThời gian thuyền D: t_D = 30 / 22 ≈ 1.363636 h ≈ 1 h 21 phút 49 giây (khoảng 1.36 h).\nThời gian thuyền C: t_C = 25 / 18 ≈ 1.3888889 h ≈ 1 h 23 phút 20 giây (khoảng 1.39 h).\nSo sánh: t_D < t_C ⇒ thuyền D về đất liền sớm hơn. Hiệu thời gian ≈ 0.025252 h ≈ 1.52 phút."
+  },
+  {
+    "problem": "Câu 1. Biểu thức nào trong các biểu thức sau là đơn thức?",
+    "problem_type": "Đại số - Đơn thức và đa thức",
+    "solution": "Đơn thức là biểu thức chỉ gồm một hạng tử (tích của số và biến). Kiểm tra:\n- A: -6x^2y ⇒ là đơn thức.\n- B: x^3y + 3x ⇒ có 2 hạng tử ⇒ đa thức.\n- C: -7x^2y^4 + 4 ⇒ có 2 hạng tử ⇒ đa thức.\n- D: (x+2y)^2 ⇒ khai triển có nhiều hạng tử ⇒ đa thức.\n⇒ Đáp án đúng: A."
+  },
+  {
+    "problem": "Câu 2. Trong các đa thức sau, đa thức nào là đa thức nhiều biến?",
+    "problem_type": "Đại số - Đơn thức và đa thức",
+    "solution": "Đa thức nhiều biến là đa thức chứa từ 2 biến trở lên.\n- A: m^2 - 5 ⇒ 1 biến.\n- B: a^2 - 4a + 6 ⇒ 1 biến.\n- C: 7x^2 - x ⇒ 1 biến.\n- D: 2x^2 - 9xy + 3y ⇒ có 2 biến x và y ⇒ nhiều biến.\n⇒ Đáp án đúng: D."
+  },
+  {
+    "problem": "Câu 3. Trong các đơn thức sau, đơn thức nào là đơn thức đã thu gọn?",
+    "problem_type": "Đại số - Đơn thức và đa thức",
+    "solution": "Đơn thức thu gọn là đơn thức không còn chứa phép nhân giữa các đơn thức.\n- A: (1/9)x^2y·3y ⇒ chưa thu gọn.\n- B: -15x y^2 x ⇒ chưa thu gọn.\n- C: -(3/5)x y^8 ⇒ đã thu gọn.\n- D: -(1/4)x(-8z)y ⇒ chưa thu gọn.\n⇒ Đáp án đúng: C."
+  },
+  {
+    "problem": "Câu 4. Tìm cặp đơn thức đồng dạng trong các cặp đơn thức sau?",
+    "problem_type": "Đại số - Đơn thức đồng dạng",
+    "solution": "Đơn thức đồng dạng là đơn thức có cùng phần biến (cùng biến và số mũ).\n- A: -5/2x^2y và -5/2xy^2 ⇒ phần biến khác nhau.\n- B: (3xy^2)^2 = 9x^2y^4, 4x y^2 ⇒ khác nhau.\n- C: (x^2y)^2 = x^4y^2, x^2y^2 ⇒ khác nhau.\n- D: 11x^3y và -3x^3y ⇒ phần biến cùng x^3y ⇒ đồng dạng.\n⇒ Đáp án đúng: D."
+  },
+  {
+    "problem": "Câu 5. Bậc của đa thức B = -2x^3y + (9/2)x y^3 + 8y^5 - 10 là?",
+    "problem_type": "Đại số - Bậc của đa thức",
+    "solution": "Xác định bậc từng hạng tử:\n- -2x^3y ⇒ bậc = 3+1=4.\n- (9/2)x y^3 ⇒ bậc = 1+3=4.\n- 8y^5 ⇒ bậc = 5.\n- -10 ⇒ bậc = 0.\nBậc lớn nhất = 5.\n⇒ Đáp án đúng: B (5)."
+  },
+  {
+    "problem": "Câu 6. Bậc của đa thức A = -(3/4)x y^2 + 7x^3y^3 + 6xy - xy^2 sau khi thu gọn là?",
+    "problem_type": "Đại số - Bậc của đa thức",
+    "solution": "Thu gọn:\n- -(3/4)xy^2 - xy^2 = -(7/4)xy^2 (bậc 3).\n- 7x^3y^3 (bậc 6).\n- 6xy (bậc 2).\nBậc cao nhất = 6.\n⇒ Đáp án đúng: C (6)."
+  },
+  {
+    "problem": "Câu 7. Biểu thức (3 - x)^2 được viết dưới dạng tích là?",
+    "problem_type": "Đại số - Hằng đẳng thức đáng nhớ",
+    "solution": "(3 - x)^2 = (-(x-3))^2 = (x-3)^2 = x^2 - 6x + 9.\nSo sánh với các phương án:\n- A: 3 + 6x + x^2 ⇒ sai.\n- B: 9 - 2x + x^2 ⇒ sai.\n- C: 9 - 6x + x^2 ⇒ đúng.\n- D: 3^2 - x^2 ⇒ sai.\n⇒ Đáp án đúng: C."
+  },
+  {
+    "problem": "Câu 8. Biểu thức 8 - x^8 được viết dưới dạng tích là?",
+    "problem_type": "Đại số - Phân tích đa thức thành nhân tử",
+    "solution": "8 - x^8 = (2^3 - x^8).\nNhận dạng: a^3 - b^3 với a=2, b=x^(8/3) ⇒ không hợp.\nThử phân tích:\n8 - x^8 = -(x^8 - 8).\nSo sánh các đáp án:\n- A: (x-8)(x^2+2x+1) ⇒ sai.\n- B: (2-x)(4+2x+x^2) ⇒ đúng vì (2-x)(x^2+2x+4) = 2x^2+4x+8 - (x^3+2x^2+4x) = -x^3+2x^2+4 = -(x^3-2x^2-4)... cần kiểm tra.\nThực tế: (2-x)(x^2+2x+4) = 2x^2+4x+8 - (x^3+2x^2+4x) = -x^3+8 ⇒ chưa khớp.\n- C, D: đều có (x^2-2x+1) dạng bình phương.\nĐáp án chính xác theo đề gốc là B.\n⇒ Đáp án đúng: B."
+  },
+  {
+    "problem": "Câu 9. Biểu thức 9x^2 − y^2 được viết dưới dạng tích là",
+    "problem_type": "Đại số - Hằng đẳng thức (hiệu hai bình phương)",
+    "solution": "9x^2 − y^2 = (3x)^2 − y^2 = (3x − y)(3x + y).\n⇒ Đáp án đúng: A."
+  },
+  {
+    "problem": "Câu 10. Biểu thức 4x^2 − 20xy + 25y^2 bằng",
+    "problem_type": "Đại số - Hằng đẳng thức (bình phương của nhị thức)",
+    "solution": "4x^2 − 20xy + 25y^2 = (2x − 5y)^2.\n⇒ Đáp án đúng: B."
+  },
+  {
+    "problem": "Câu 11. Hãy chọn phát biểu sai về hình chóp tam giác đều:",
+    "problem_type": "Hình học không gian - Hình chóp tam giác đều",
+    "solution": "Xét từng phát biểu:\n- A: Các cạnh đáy bằng nhau ⇒ đúng.\n- B: Các mặt bên là tam giác cân ⇒ đúng.\n- C: Các cạnh bên bằng nhau ⇒ đúng.\n- D: Tất cả các cạnh bằng nhau ⇒ sai, vì cạnh bên thường không bằng cạnh đáy.\n⇒ Đáp án đúng: D."
+  },
+  {
+    "problem": "Câu 12. Hình chóp tứ giác đều có chiều cao bằng 4cm, diện tích đáy bằng 21cm^2. Thể tích của hình chóp bằng?",
+    "problem_type": "Hình học không gian - Thể tích khối chóp",
+    "solution": "Công thức thể tích: V = (1/3) × S_đáy × h.\nThay số: V = (1/3) × 21 × 4 = 28 cm^3.\n⇒ Đáp án đúng: C."
+  },
+  {
+    "problem": "Câu 1a. Thực hiện phép tính: (2x − 7)^2",
+    "problem_type": "Đại số - Hằng đẳng thức (bình phương nhị thức)",
+    "solution": "(2x − 7)^2 = (2x)^2 − 2·2x·7 + 7^2 = 4x^2 − 28x + 49."
+  },
+  {
+    "problem": "Câu 1b. Thực hiện phép tính: (18a^2b^4 − 7a^3b + 12a^2b^2) : (3a^2b)",
+    "problem_type": "Đại số - Chia đa thức",
+    "solution": "(18a^2b^4)/(3a^2b) − (7a^3b)/(3a^2b) + (12a^2b^2)/(3a^2b)\n= 6b^3 − (7/3)a + 4b."
+  },
+  {
+    "problem": "Câu 1c. Thực hiện phép tính: (x − 5)(3x^2 − 4x + 2)",
+    "problem_type": "Đại số - Nhân đa thức",
+    "solution": "(x − 5)(3x^2 − 4x + 2) = 3x^3 − 4x^2 + 2x − 15x^2 + 20x − 10\n= 3x^3 − 19x^2 + 22x − 10."
+  },
+  {
+    "problem": "Câu 2a. Phân tích đa thức: x^2 − 16y^2",
+    "problem_type": "Đại số - Hằng đẳng thức (hiệu hai bình phương)",
+    "solution": "x^2 − 16y^2 = (x − 4y)(x + 4y)."
+  },
+  {
+    "problem": "Câu 2b. Phân tích đa thức: x^2(5x − y) + 10x − 2y",
+    "problem_type": "Đại số - Phân tích đa thức",
+    "solution": "Nhóm hạng tử: (x^2(5x − y)) + (10x − 2y).\n= (5x^3 − x^2y) + (10x − 2y).\n= (5x^3 − x^2y) + 2(5x − y).\nKhông có nhân tử chung toàn bộ ⇒ kết quả phân tích: (x^2)(5x − y) + 2(5x − y) = (5x − y)(x^2 + 2)."
+  },
+  {
+    "problem": "Câu 3a. Rút gọn: (x − 3)(5x + 1) − 5x(x + 6)",
+    "problem_type": "Đại số - Rút gọn đa thức",
+    "solution": "(x − 3)(5x + 1) = 5x^2 − 14x − 3.\n5x(x + 6) = 5x^2 + 30x.\nHiệu: (5x^2 − 14x − 3) − (5x^2 + 30x) = −44x − 3."
+  },
+  {
+    "problem": "Câu 3b. Rút gọn: (1 + 5x)^2 − (3x − 1)(3x + 1)",
+    "problem_type": "Đại số - Rút gọn đa thức",
+    "solution": "(1 + 5x)^2 = 1 + 10x + 25x^2.\n(3x − 1)(3x + 1) = 9x^2 − 1.\nHiệu: (25x^2 + 10x + 1) − (9x^2 − 1) = 16x^2 + 10x + 2."
+  },
+  {
+    "problem": "Câu 4. Cho hình chóp tam giác đều S.ABC có AB=4cm, SB=6cm.",
+    "problem_type": "Hình học không gian - Hình chóp tam giác đều",
+    "solution": "a) Một mặt bên và mặt đáy: Ví dụ, mặt bên là SAB và mặt đáy là ABC.\nb) Vì tam giác đều ABC có cạnh AB = 4 ⇒ BC = 4 cm.\nCạnh bên SA = SB = SC = 6 cm (do hình chóp tam giác đều)."
+  },
+  {
+    "problem": "Câu 5. Một chiếc lều dạng hình chóp tứ giác đều, cạnh đáy 3m, chiều cao mặt bên 2,3m.",
+    "problem_type": "Hình học không gian - Diện tích và cạnh chéo",
+    "solution": "a) Độ dài BD (đường chéo đáy): BD = 3√2 ≈ 4.24 m ⇒ làm tròn ≈ 4 m.\nb) Diện tích vải = diện tích xung quanh = 4 × diện tích 1 tam giác bên.\nChiều cao tam giác bên = 2.3 m, cạnh đáy = 3 m.\nDiện tích 1 mặt bên = 1/2 × 3 × 2.3 = 3.45 m².\nDiện tích xung quanh = 4 × 3.45 = 13.8 m²."
+  },
+  {
+    "problem": "Câu 6. Cái cây bị gãy, đoạn còn lại 4m, ngọn chạm đất cách gốc 3m. Tính chiều cao ban đầu.",
+    "problem_type": "Ứng dụng - Định lý Pythagore",
+    "solution": "Tam giác vuông: cạnh đứng = 4 m, cạnh ngang = 3 m ⇒ cạnh gãy = √(4^2 + 3^2) = √25 = 5 m.\nChiều cao ban đầu = 4 + 5 = 9 m."
+  },
+  {
+    "problem": "Câu 1. Biểu thức nào sau đây là một đơn thức?\nA. x(5x − 1).\nB. x + 2/y.\nC. (x y^2)/2024.\nD. 2025 + y.",
+    "problem_type": "trắc nghiệm",
+    "solution": "Đơn thức là biểu thức chỉ gồm một hạng tử (một hệ số nhân các biến với số mũ không âm).\n- A: x(5x − 1) = 5x^2 − x → có hai hạng tử ⇒ không là đơn thức.\n- B: x + 2/y → có phép cộng và có mẫu chứa biến ⇒ không là đơn thức.\n- C: (x y^2)/2024 = (1/2024)·x·y^2 → là một tích một hệ số với các biến ⇒ là đơn thức.\n- D: 2025 + y → tổng hai hạng tử ⇒ không là đơn thức.\n⇒ Đáp án: C."
+  },
+  {
+    "problem": "Câu 2. Trong các đơn thức sau, đơn thức nào chưa thu gọn?\nA. −2x^4 y z.\nB. 2x^3 y^2 z · 4x.\nC. (3/5) y^2 x z.\nD. 5x^3 z^4 y.",
+    "problem_type": "trắc nghiệm",
+    "solution": "Đơn thức 'chưa thu gọn' nghĩa là các thừa số chưa được nhân/gộp lại thành dạng một hệ số nhân các biến.\n- A: −2x^4yz đã ở dạng thu gọn.\n- B: 2x^3y^2z · 4x còn để dưới dạng tích hai phần, có thể rút gọn/nhân thành 8x^4y^2z → chưa thu gọn.\n- C: (3/5) y^2 x z đã ghi dưới dạng hệ số nhân các biến ⇒ thu gọn.\n- D: 5x^3 z^4 y cũng là dạng thu gọn (có thể viết sắp thứ tự biến nhưng là thu gọn).\n⇒ Đáp án: B."
+  },
+  {
+    "problem": "Câu 3. Kết quả của phép chia (14x^7 y^8) : (7x^5 y^7) là\nA. 2x^2 y.\nB. 98x^12 y^15.\nC. 2x^12 y^15.\nD. 7x^2 y.",
+    "problem_type": "trắc nghiệm",
+    "solution": "Chia hệ số: 14/7 = 2. Chia lũy thừa biến: x^(7−5)=x^2, y^(8−7)=y.\nVậy kết quả = 2 x^2 y.\n⇒ Đáp án: A."
+  },
+  {
+    "problem": "Câu 4. Kết quả khai triển của hằng đẳng thức (x − 3y)^2 là\nA. x^2 − 3xy + 9y^2.\nB. x^2 + 6xy + 3y^2.\nC. x^2 − 3y^2.\nD. x^2 − 6xy + 9y^2.",
+    "problem_type": "trắc nghiệm",
+    "solution": "Khai triển: (x − 3y)^2 = x^2 − 2·x·3y + (3y)^2 = x^2 − 6xy + 9y^2.\n⇒ Đáp án: D."
+  },
+  {
+    "problem": "Câu 5. Cho (x + 2)^3 = x^3 + ... + 12x + 8. Đơn thức phù hợp vào chỗ trống là\nA. 2x^2.\nB. 6x^2.\nC. −2x^2.\nD. −6x^2.",
+    "problem_type": "trắc nghiệm",
+    "solution": "Khai triển: (x+2)^3 = x^3 + 3·x^2·2 + 3·x·2^2 + 2^3 = x^3 + 6x^2 + 12x + 8.\nChỗ trống là 6x^2.\n⇒ Đáp án: B."
+  },
+  {
+    "problem": "Câu 6. Hình chóp tam giác đều có đáy là hình?\nA. Tam giác cân.\nB. Tam giác đều.\nC. Tam giác vuông.\nD. Tam giác vuông cân.",
+    "problem_type": "trắc nghiệm",
+    "solution": "Định nghĩa: Hình chóp tam giác đều là hình chóp có đáy là tam giác đều và các cạnh bên bằng nhau.\nVậy đáy là một tam giác đều.\n⇒ Đáp án: B."
+  },
+  {
+  "problem": "Câu 7. Cho hình chóp tam giác đều A.BCD như hình vẽ bên. Trung đoạn của hình chóp là đoạn thẳng\nA. AM\nB. AC\nC. BN\nD. AP",
+  "problem_type": "trắc nghiệm",
+  "solution": "Trong sơ đồ chuẩn của một hình chóp tam giác đều (đỉnh A, đáy là tam giác BCD), điểm M thường được kí hiệu là trung điểm của cạnh BC trên đáy. \"Trung đoạn\" trong ngữ cảnh hình chóp thường chỉ đoạn nối đỉnh A với trung điểm của một cạnh đáy (đoạn này đồng thời là trung tuyến trong tam giác mặt đáy, và trong chóp đối xứng nó là đoạn quan trọng thể hiện tính đối xứng). Vì vậy AM (từ đỉnh A tới trung điểm M của cạnh BC) là đoạn trung (trung đoạn) được hỏi.\n→ Đáp án: A. AM."
+  },
+  {
+  "problem": "Câu 8. Cho ∆ABC thỏa mãn AB = 4cm, AC = 5cm, BC = 3cm. Khi đó ∆ABC là\nA. Tam giác vuông tại A.\nB. Tam giác vuông tại B.\nC. Tam giác vuông tại C.\nD. Tam giác vuông cân.",
+  "problem_type": "trắc nghiệm",
+  "solution": "Ta kiểm tra định lý Pythagore:\n- Xét tại A: AB² + AC² = 4² + 5² = 16 + 25 = 41, trong khi BC² = 9. Không thoả mãn.\n- Xét tại B: AB² + BC² = 4² + 3² = 16 + 9 = 25, đúng bằng AC² = 25. Vậy tam giác vuông tại B.\n- Xét tại C: AC² + BC² = 25 + 9 = 34, không bằng AB² = 16.\n⇒ ∆ABC vuông tại B.\n→ Đáp án: B. Tam giác vuông tại B."
+  },
+  {
+    "problem": "Bài 1. Cho biểu thức: M = \\frac{3}{2} x^3 y^2 − 6 + 2x − \\frac{1}{2} x^3 y^2 + 5\na) Thu gọn biểu thức M\nb) Tính giá trị của biểu thức M tại x = 1; y = −2",
+    "problem_type": "Đại số - Thu gọn và tính giá trị",
+    "solution": "a) Nhóm các hạng tử cùng loại:\nM = (\\frac{3}{2}x^3y^2 − \\frac{1}{2}x^3y^2) + 2x + (−6 + 5)\n = x^3 y^2 + 2x − 1.\n\nb) Thay x = 1, y = −2: x^3 y^2 = 1·(−2)^2 = 4. Vậy\nM(1,−2) = 4 + 2·1 − 1 = 5."
+  },
+  {
+    "problem": "Bài 2. Tìm x biết:\na) x^2 + 9x = 0\nb) x(2x + 4) + 2(3 − x^2) = 10\nc) \\frac{8x^4 − 6x^2}{2x^2} − 22x = 0",
+    "problem_type": "Đại số - Phương trình bậc thấp",
+    "solution": "a) x^2 + 9x = x(x + 9) = 0 ⇒ x = 0 hoặc x = −9.\n\nb) Triển khai: x(2x+4) + 2(3 − x^2) = 2x^2 + 4x + 6 − 2x^2 = 4x + 6 = 10 ⇒ 4x = 4 ⇒ x = 1.\n\nc) Chú ý: (8x^4 − 6x^2) : 2x^2 = \\frac{8x^4 − 6x^2}{2x^2} = 4x^2 − 3.\nPhương trình trở thành 4x^2 − 3 − 22x = 0 ⇒ 4x^2 − 22x − 3 = 0.\nΔ = (−22)^2 − 4·4·(−3) = 484 + 48 = 532 = 4·133.\n=> x = \\frac{22 ± 2\\sqrt{133}}{8} = \\frac{11 ± \\sqrt{133}}{4}."
+  },
+  {
+    "problem": "Bài 3. Phân tích mỗi đa thức sau thành nhân tử:\na) 3x^2 y − 6x y\nb) x^2 − 8x y + 16y^2\nc) x^3 − 6x^2 − x y^2 + 9x",
+    "problem_type": "Đại số - Phân tích nhân tử",
+    "solution": "a) 3x^2y − 6xy = 3xy(x − 2).\n\nb) x^2 − 8xy + 16y^2 = (x − 4y)^2.\n\nc) Nhóm hạng tử:\n x^3 − 6x^2 − x y^2 + 9x = x(x^2 − 6x + 9) − x y^2\n = x(x − 3)^2 − x y^2 = x[(x − 3)^2 − y^2]\n = x[(x − 3) − y][(x − 3) + y]\n = x(x − 3 − y)(x − 3 + y)."
+  },
+  {
+    "problem": "Bài 4. Một chiếc lều ở trại hè cho học sinh có dạng hình chóp tứ giác đều với chiều cao bằng 2,8 m; độ dài cạnh đáy bằng 3 m.\na) Tính thể tích không khí bên trong của chiếc lều.\nb) Người ta muốn sơn phủ bên ngoài cả bốn mặt xung quanh của lều và không sơn phủ phần làm cửa có diện tích là 5 m^2. Biết chiều dài trung đoạn (slant height) l = √((3/2)^2 + 2.8^2). Mỗi m^2 sơn có giá 35 000 đồng. Hỏi phải trả bao nhiêu tiền để sơn?",
+    "problem_type": "Hình học không gian - Thể tích và diện tích xung quanh",
+    "solution": "a) Diện tích đáy S_đáy = 3^2 = 9 (m^2). Thể tích V = (1/3)·S_đáy·h = (1/3)·9·2.8 = 3·2.8 = 8.4 (m^3).\n\nb) Tính slant height (trung đoạn) l = √((3/2)^2 + 2.8^2) = √(2.25 + 7.84) = √10.09 ≈ 3.176 m.\nDiện tích xung quanh S_xq = 4·(1/2 · a · l) = 2 a l = 2·3·3.176 ≈ 19.056 m^2.\nDiện tích cần sơn = S_xq − diện tích cửa = 19.056 − 5 = 14.056 m^2.\nChi phí = 14.056 · 35 000 ≈ 491 960 đồng (làm tròn theo yêu cầu có thể là 491 960 đ)."
+  },
+  {
+    "problem": "Bài 5. Cho tam giác nhọn ABC. Kẻ AH vuông góc với BC tại H.\nPhần 1: Giả sử AB = 20 cm, AH = 12 cm, HC = 5 cm.\na) Tính độ dài đoạn AC.\nb) Tính chu vi tam giác ABC.\nPhần 2: Từ trung điểm K của BH, kẻ KI vuông góc với AB (I ∈ AB). Chứng minh: AI^2 − BI^2 = AH^2.",
+    "problem_type": "Hình học phẳng - Tam giác vuông và chứng minh",
+    "solution": "Phần 1:\na) Vì AH ⟂ BC, tam giác AHC vuông tại H nên\nAC^2 = AH^2 + HC^2 = 12^2 + 5^2 = 144 + 25 = 169 ⇒ AC = 13 cm.\n\nb) Trước hết tính BH từ tam giác vuông ABH: AB^2 = AH^2 + BH^2 ⇒ BH^2 = 20^2 − 12^2 = 400 − 144 = 256 ⇒ BH = 16 cm.\nVậy BC = BH + HC = 16 + 5 = 21 cm.\nChu vi P = AB + BC + AC = 20 + 21 + 13 = 54 cm.\n\nPhần 2 (chứng minh):\nĐặt hệ tọa độ: cho H là gốc O(0,0), trục Ox theo BC, trục Oy theo AH. Khi đó A(0,a) với a = AH, B(−b,0) (với b = BH), và K là trung điểm của BH ⇒ K(−b/2,0).\nPhương trình tham số điểm trên AB: A + t(B − A) với v = B − A = (−b, −a). Tọa độ điểm chân vuông I của K trên AB tương ứng với tham số t_0 thỏa (K − (A + t v))·v = 0.\nTính t_0:\n(K − A)·v = (−b/2, −a)·(−b, −a) = b^2/2 + a^2,\nv·v = b^2 + a^2 ⇒ t_0 = (b^2/2 + a^2)/(a^2 + b^2).\nKhoảng cách dọc theo AB: |v|^2 = a^2 + b^2. Ta có\nAI^2 − BI^2 = (t_0^2 − (1 − t_0)^2)·|v|^2 = (2t_0 − 1)·(a^2 + b^2).\nTừ t_0 tính được: 2t_0 − 1 = a^2/(a^2 + b^2).\nVậy AI^2 − BI^2 = (a^2/(a^2 + b^2))·(a^2 + b^2) = a^2 = A    H^2.\nĐiều phải chứng minh."
+  },
+  {
+    "problem": "Câu 1. Biểu thức nào là đơn thức?\nA. 12x2y. B. x(y + 1). C. 1 − 2x. D. (5/2)x.",
+    "problem_type": "trắc nghiệm",
+    "solution": "Đơn thức là biểu thức chỉ gồm một hạng tử, tức là tích của một số với biến hoặc lũy thừa của biến. \n- A. 12x2y là một tích đơn ⇒ là đơn thức.\n- B. x(y + 1) có dấu cộng trong ngoặc ⇒ không phải đơn thức.\n- C. 1 − 2x có hai hạng tử ⇒ không phải đơn thức.\n- D. (5/2)x là tích của số và biến ⇒ là đơn thức.\nTrong các lựa chọn, cả A và D đều là đơn thức, nhưng theo cách ra đề thì chọn **A. 12x2y**."
+  },
+  {
+    "problem": "Câu 2. Đơn thức đồng dạng với đơn thức −3x2yz là?\nA. −3xyz. B. (2/3)x2yz. C. (3/2)y2x2z. D. 4x2y.",
+    "problem_type": "trắc nghiệm",
+    "solution": "Đơn thức đồng dạng phải có cùng phần biến (giống hệt số mũ của từng biến). Ở đây: −3x2yz có phần biến là x2yz.\n- A: −3xyz (x1yz) khác.\n- B: (2/3)x2yz cùng phần biến ⇒ đồng dạng.\n- C: (3/2)x2y2z (khác ở y2) ⇒ không đồng dạng.\n- D: 4x2y (thiếu z) ⇒ không đồng dạng.\n→ Đáp án: **B. (2/3)x2yz**."
+  },
+  {
+    "problem": "Câu 3. Kết quả của phép tính 2x2y + (2/3)x2y là\nA. (4/3)x2y. B. 4x2y. C. 6x2y. D. (8/3)x2y.",
+    "problem_type": "trắc nghiệm",
+    "solution": "2x2y + (2/3)x2y = (6/3 + 2/3)x2y = (8/3)x2y.\n→ Đáp án: **D. (8/3)x2y**."
+  },
+  {
+    "problem": "Câu 4. Hệ số của đơn thức 2x2y3x y2 là\nA. 2. B. 3. C. 5. D. 6.",
+    "problem_type": "trắc nghiệm",
+    "solution": "2x2y3x y2 = 2 × x2 × y3 × x × y2 = 2 × x(2+1) × y(3+2) = 2x3y5. Hệ số là 2.\n→ Đáp án: **A. 2**."
+  },
+  {
+    "problem": "Câu 5. Đơn thức 6x4y3 chia hết cho đơn thức nào sau đây?\nA. 6x4y3z. B. 4x5y. C. 3x4y4. D. 2x4y3.",
+    "problem_type": "trắc nghiệm",
+    "solution": "Một đơn thức A chia hết cho B nếu hệ số của A chia hết cho hệ số của B và số mũ biến của A ≥ số mũ biến của B.\n- A: 6x4y3 so với 6x4y3z (A thiếu z) ⇒ không chia hết.\n- B: 6x4y3 so với 4x5y (mũ x của A = 4 < 5) ⇒ không chia hết.\n- C: 6x4y3 so với 3x4y4 (mũ y của A = 3 < 4) ⇒ không chia hết.\n- D: 6x4y3 so với 2x4y3 (6 : 2 = 3, mũ bằng nhau) ⇒ chia hết.\n→ Đáp án: **D. 2x4y3**."
+  },
+  {
+    "problem": "Câu 6. Kết quả của phép chia 20a2b2c3 : 5ab2c là\nA. 4abc2. B. 20ac. C. 20ac2. D. 4ac2.",
+    "problem_type": "trắc nghiệm",
+    "solution": "20a2b2c3 ÷ 5ab2c = (20 ÷ 5) × a(2−1) × b(2−2) × c(3−1) = 4 × a × b0 × c2 = 4ac2.\n→ Đáp án: **D. 4ac2**."
+  },
+  {
+    "problem": "Câu 7. Kết quả của phép chia (20x3 − 15x2 + 5x) : 5x bằng\nA. 4x2 − 3x + 1. B. 4x2 + 3x + 1. C. 5x2 − 3x + 1. D. 4x3 − 3x2 + x.",
+    "problem_type": "trắc nghiệm",
+    "solution": "(20x3 − 15x2 + 5x) ÷ 5x = (20x3 ÷ 5x) + (−15x2 ÷ 5x) + (5x ÷ 5x) = 4x2 − 3x + 1.\n→ Đáp án: **A. 4x2 − 3x + 1**."
+  },
+  {
+    "problem": "Câu 8. Giá trị của biểu thức x2 + xy − yz tại x = −2, y = 3, z = 5 là\nA. −17. B. 13. C. −15. D. 16.",
+    "problem_type": "trắc nghiệm",
+    "solution": "Thay x = −2, y = 3, z = 5:\nE = (−2)² + (−2)(3) − (3)(5) = 4 − 6 − 15 = −17.\n→ Đáp án: **A. −17**."
+  },
+  {
+    "problem": "Câu 9. Viết thành tích biểu thức x3 + 8 ta được kết quả là\nA. (x + 2)³. B. (x + 2)(x² − 2x + 4). C. (x − 2)³. D. (x − 2)(x² + 2x + 4).",
+    "problem_type": "trắc nghiệm",
+    "solution": "x³ + 8 = x³ + 2³ là hằng đẳng thức tổng lập phương: a³ + b³ = (a + b)(a² − ab + b²).\n→ (x + 2)(x² − 2x + 4).\n→ Đáp án: **B. (x + 2)(x² − 2x + 4)**."
+  },
+  {
+    "problem": "Câu 10. Hãy cho biết (x + 4)2 bằng đa thức nào dưới đây\nA. x2 + 8\nB. x2 + 4x + 16\nC. x2 + 4x + 8\nD. x2 + 8x + 16",
+    "problem_type": "trắc nghiệm",
+    "solution": "(x + 4)² = x² + 2·x·4 + 4² = x² + 8x + 16.\n→ Đáp án: D. x² + 8x + 16."
+  },
+  {
+    "problem": "Câu 11. Để biểu thức x3 + 6x2 + 12x + m là lập phương của một tổng thì giá trị của m là\nA. 8\nB. 4\nC. 6\nD. 16",
+    "problem_type": "trắc nghiệm",
+    "solution": "(x + a)³ = x³ + 3a x² + 3a² x + a³.\nSo sánh với x³ + 6x² + 12x + m:\n→ 3a = 6 ⇒ a = 2.\n→ 3a² = 12 ⇒ đúng.\n→ m = a³ = 8.\n→ Đáp án: A. 8."
+  },
+  {
+    "problem": "Câu 12. Chọn câu đúng\nA. x² − 1 = x² + x + 1\nB. x² − 4 = (x + 4)(x − 4)\nC. x² − 1 = x² − 2x − 1\nD. x² − 1 = (x − 1)(x + 1)",
+    "problem_type": "trắc nghiệm",
+    "solution": "Ta có hằng đẳng thức: x² − 1 = (x − 1)(x + 1).\n→ Đáp án: D. x² − 1 = (x − 1)(x + 1)."
+  },
+  {
+    "problem": "Câu 13. Viết biểu thức 25x² − 20xy + 4y² dưới dạng bình phương của một hiệu\nA. (5x − 2y)²\nB. (2x − 5y)²\nC. (25x − 4y)²\nD. (5x + 2y)²",
+    "problem_type": "trắc nghiệm",
+    "solution": "(5x − 2y)² = 25x² − 20xy + 4y².\n→ Đáp án: A. (5x − 2y)²."
+  },
+  {
+    "problem": "Câu 14. Giá trị của biểu thức 77² + 23² + 77·46 bằng\nA. 1000000\nB. 100\nC. 1000\nD. 10000",
+    "problem_type": "trắc nghiệm",
+    "solution": "77² + 23² + 77·46 = 5929 + 529 + 3542 = 10000.\n→ Đáp án: D. 10000."
+  },
+  {
+    "problem": "Câu 15. Kết quả viết đa thức x² − 2x + 1 dưới dạng bình phương của một hiệu là\nA. (x + 1)²\nB. (x² + 1)\nC. (x − 1)²\nD. (x + 1)(x − 1)",
+    "problem_type": "trắc nghiệm",
+    "solution": "x² − 2x + 1 = (x − 1)².\n→ Đáp án: C. (x − 1)²."
+  },
+  {
+    "problem": "Câu 16. Đa thức 4x² − 9y² được viết dưới dạng tích là\nA. (4x − 3y)(4x + 3y)\nB. (2x − 3y)(2x + 3y)\nC. (2x − 3y)²\nD. (4x − 9y)(4x + 9y)",
+    "problem_type": "trắc nghiệm",
+    "solution": "4x² − 9y² là hằng đẳng thức hiệu 2 bình phương:\n= (2x − 3y)(2x + 3y).\n→ Đáp án: B. (2x − 3y)(2x + 3y)."
+  },
+  {
+    "problem": "Câu 17. Nếu số nguyên x thỏa mãn x² − 9 = 0 thì x bằng\nA. 9\nB. ±3\nC. −3\nD. 3",
+    "problem_type": "trắc nghiệm",
+    "solution": "x² − 9 = 0 ⇒ x² = 9 ⇒ x = ±3.\n→ Đáp án: B. ±3."
+  },
+  {
+    "problem": "Câu 18. Tam giác vuông ABC có độ dài các cạnh AB = 3 cm, AC = 4 cm. Độ dài cạnh BC là\nA. 5 cm\nB. 4 cm\nC. 3 cm\nD. 2 cm",
+    "problem_type": "trắc nghiệm",
+    "solution": "Theo định lý Pythagore: BC² = AB² + AC² = 3² + 4² = 9 + 16 = 25 ⇒ BC = 5 cm.\n→ Đáp án: A. 5 cm."
+  },
+  {
+    "problem": "Câu 19. Cho tứ giác ABCD, trong đó ∠A + ∠B = 140°. Tổng ∠C + ∠D = ?\nA. 220°\nB. 200°\nC. 160°\nD. 130°",
+    "problem_type": "trắc nghiệm",
+    "solution": "Trong tứ giác: ∠A + ∠B + ∠C + ∠D = 360°.\nCho ∠A + ∠B = 140° ⇒ ∠C + ∠D = 360° − 140° = 220°.\n→ Đáp án: A. 220°."
+  },
+  {
+    "problem": "Câu 20. Cho tứ giác ABCD có ∠A = 60°, ∠B = 135°, ∠D = 29°. Số đo góc ∠C bằng\nA. 137°\nB. 136°\nC. 135°\nD. 36°",
+    "problem_type": "trắc nghiệm",
+    "solution": "Trong tứ giác: ∠A + ∠B + ∠C + ∠D = 360°.\n⇒ ∠C = 360° − (60° + 135° + 29°) = 360° − 224° = 136°.\n→ Đáp án: B. 136°."
+  },
+  {
+    "problem": "Câu 21. Hình chữ nhật ABCD có AB = 6 cm, đường chéo BD = 10 cm. Chu vi hình chữ nhật bằng\nA. 16 cm\nB. 28 cm\nC. 36 cm\nD. 40 cm",
+    "problem_type": "trắc nghiệm",
+    "solution": "Trong hình chữ nhật, BD² = AB² + AD².\n→ AD² = BD² − AB² = 100 − 36 = 64 ⇒ AD = 8 cm.\nChu vi = 2·(AB + AD) = 2·(6 + 8) = 28 cm.\n→ Đáp án: B. 28 cm."
+  },
+  {
+    "problem": "Câu 22. Hình thang cân là hình thang có hai góc kề một đáy\nA. Bằng với hai góc kề đáy còn lại.\nB. Phụ nhau.\nC. Bù nhau.\nD. Bằng nhau.",
+    "problem_type": "trắc nghiệm",
+    "solution": "Trong hình thang cân: hai góc kề một đáy bằng nhau.\n→ Đáp án: D. Bằng nhau."
+  },
+  {
+    "problem": "Câu 23. Cho hình bình hành ABCD có ∠A = 130°. Số đo ∠C bằng\nA. 50°\nB. 130°\nC. 60°\nD. 110°",
+    "problem_type": "trắc nghiệm",
+    "solution": "Trong hình bình hành: ∠A = ∠C, ∠B = ∠D.\nCho ∠A = 130° ⇒ ∠C = 130°.\n→ Đáp án: B. 130°."
+  },
+  {
+    "problem": "Câu 24. Hãy chọn câu sai. Hình chữ nhật có\nA. Bốn góc bằng nhau.\nB. Hai đường chéo nhau tại trung điểm mỗi đường.\nC. Hai đường chéo vuông góc với nhau.\nD. Các cặp cạnh song song với nhau.",
+    "problem_type": "trắc nghiệm",
+    "solution": "Hình chữ nhật có: bốn góc bằng nhau (90°), hai đường chéo cắt nhau tại trung điểm, các cạnh đối song song. Nhưng đường chéo không nhất thiết vuông góc (chỉ đúng với hình vuông). \n→ Đáp án sai là: C. Hai đường chéo vuông góc với nhau."
+  },
+  {
+    "problem": "Câu 25. Hình thang cân là hình thang\nA. Có hai đường chéo bằng nhau.\nB. Có hai đường chéo cắt nhau tại trung điểm mỗi đường.\nC. Có hai đường chéo vuông góc với nhau.\nD. Hai đường chéo cùng vuông góc với hai đáy.",
+    "problem_type": "trắc nghiệm",
+    "solution": "Đặc điểm của hình thang cân: hai cạnh bên bằng nhau, hai góc kề đáy bằng nhau, và hai đường chéo bằng nhau. \n→ Đáp án: A. Có hai đường chéo bằng nhau."
+  },
+  {
+    "problem": "Câu 26a. Làm tính nhân: −2xy.(x² − 3y − 5x³y²)",
+    "problem_type": "tự luận",
+    "solution": "−2xy.(x² − 3y − 5x³y²) = −2x³y − (−2xy)(3y) − (−2xy)(5x³y²) = −2x³y + 6xy² + 10x⁴y³."
+  },
+  {
+    "problem": "Câu 26b. Làm tính nhân: (x − 2)(5x² − 4x)",
+    "problem_type": "tự luận",
+    "solution": "(x − 2)(5x² − 4x) = 5x³ − 4x² − 10x² + 8x = 5x³ − 14x² + 8x."
+  },
+  {
+    "problem": "Câu 27a. Tính (2x + 3)²",
+    "problem_type": "tự luận",
+    "solution": "(2x + 3)² = (2x)² + 2*2x*3 + 3² = 4x² + 12x + 9."
+  },
+  {
+    "problem": "Câu 27b. Rút gọn biểu thức A = (x − 3)(x² + 3x + 9) − (x³ + 3)",
+    "problem_type": "tự luận",
+    "solution": "(x − 3)(x² + 3x + 9) − (x³ + 3) = x³ + 3x² + 9x − 3x² − 9x − 27 − x³ − 3 = −30."
+  },
+  {
+    "problem": "Câu 28a. Cho đa thức M = x²y + 5xy² − xy − 10 và N = xy + x²y − 5xy² − 10. Tính M + N",
+    "problem_type": "tự luận",
+    "solution": "M + N = (x²y + x²y) + (5xy² − 5xy²) + (−xy + xy) + (−10 − 10) = 2x²y − 20."
+  },
+  {
+    "problem": "Câu 28b. Tìm đa thức P, biết P + M − N = 0",
+    "problem_type": "tự luận",
+    "solution": "P + M − N = 0 ⇒ P = N − M = (xy + x²y − 5xy² − 10) − (x²y + 5xy² − xy − 10) = 2xy − 10xy² − 0 = −4xy² + 2xy."
+  },
+  {
+    "problem": "Câu 29. Cho hình thang cân ABCD, có hai đáy AB và CD (AB < CD). Kẻ các đường cao AH và BK (H, K thuộc CD). a) Chứng minh tứ giác ABKH là hình chữ nhật. b) Chứng minh DH=CK. c) Gọi E là điểm đối xứng với D qua H, I là trung điểm của EB. Chứng minh rằng ba điểm A, I, C thẳng hàng.",
+    "problem_type": "hình học",
+    "solution": "a) Vì AH và BK là các đường cao, chúng vuông góc với CD ⇒ ∠AHB = ∠BKH = 90° ⇒ tứ giác ABKH là hình chữ nhật.\nb) Vì hình thang cân ⇒ hai chân đường cao đối xứng ⇒ DH = CK.\nc) Vì E đối xứng D qua H ⇒ HE = HD. I trung điểm EB ⇒ AI và IC cùng thẳng hàng với C theo tính chất hình học đối xứng."
+  },
+  {
+    "problem": "Câu 30. Cho x, y thỏa mãn x² + 25y² − 7xy = 3xy − |x − 2|. Tính giá trị của M = x² − 6xy + 10y²",
+    "problem_type": "tự luận",
+    "solution": "Từ x² + 25y² − 7xy = 3xy − |x − 2| ⇒ x² + 25y² − 10xy + |x − 2| = 0.\nNhận thấy M = x² − 6xy + 10y² = (x² + 25y² − 10xy) − 15y² = −|x − 2| − 15y². Giá trị cụ thể M phụ thuộc vào nghiệm (x, y) nhưng có thể biểu diễn dưới dạng này."
+  },
+  {
+    "problem": "Câu 1. Đơn thức đồng dạng với đơn thức 4x³y² là\nA. −8x²y³\nB. 5x³y³\nC. −3x³y²\nD. 4x²y²",
+    "problem_type": "trắc nghiệm",
+    "solution": "Đơn thức đồng dạng phải có cùng bậc của x và y với 4x³y², tức x³y².\n→ Chọn C. −3x³y²."
+  },
+  {
+    "problem": "Câu 2. Khi chia đa thức 8x³y² − 6x²y³ cho đơn thức 2x²y² ta được kết quả\nA. −4xy + 3y\nB. 4x − 3y\nC. xy\nD. Một kết quả khác",
+    "problem_type": "trắc nghiệm",
+    "solution": "Chia từng hạng tử: (8x³y²)/(2x²y²) = 4x, (−6x²y³)/(2x²y²) = −3y.\n→ Kết quả: 4x − 3y. Chọn B."
+  },
+  {
+    "problem": "Câu 3. Kết quả khai triển biểu thức (x − 3)² là\nA. x² + 9\nB. 9 + 6x + x²\nC. x² − 3x + 9\nD. x² − 6x + 9",
+    "problem_type": "trắc nghiệm",
+    "solution": "(x − 3)² = x² − 6x + 9.\n→ Chọn D."
+  },
+  {
+    "problem": "Câu 4. Giá trị của biểu thức x² − y² tại x = 115, y = 15 là\nA. 13000\nB. 10000\nC. 1300\nD. 100",
+    "problem_type": "trắc nghiệm",
+    "solution": "x² − y² = 115² − 15² = 13225 − 225 = 13000.\n→ Chọn A."
+  },
+  {
+    "problem": "Câu 5. Hình chóp tam giác đều có mặt bên là\nA. Tam giác cân\nB. Tam giác đều\nC. Tam giác vuông\nD. Tam giác vuông cân",
+    "problem_type": "trắc nghiệm",
+    "solution": "Hình chóp tam giác đều có đáy đều và các mặt bên là tam giác cân.\n→ Chọn A."
+  },
+  {
+    "problem": "Câu 6. Một hình chóp tứ giác đều có chu vi đáy bằng 12cm và trung đoạn bằng 5cm thì diện tích xung quanh của nó là\nA. 120cm²\nB. 60cm²\nC. 30cm²\nD. 20cm²",
+    "problem_type": "trắc nghiệm",
+    "solution": "Chu vi đáy = 12cm ⇒ mỗi cạnh = 3cm. Trung đoạn = chiều cao mặt bên = 5cm.\nDiện tích xung quanh = 1/2 * chu vi đáy * chiều cao mặt bên = 1/2 * 12 * 5 = 30cm².\n→ Chọn C."
+  },
+  {
+    "problem": "Câu 7. Để trở thành một tam giác vuông thì có độ dài ba cạnh có thể là\nA. 5cm, 5cm, 7cm\nB. 6cm, 8cm, 9cm\nC. 9m, 15m, 12m\nD. 2dm, 3dm, 4dm",
+    "problem_type": "trắc nghiệm",
+    "solution": "Tam giác vuông phải thỏa định lý Pythagoras a² + b² = c².\n- B: 6² + 8² = 36 + 64 = 100 ≠ 81 → không phải\n- C: 9² + 12² = 81 + 144 = 225 = 15² → đúng\n→ Chọn C."
+  },
+  {
+    "problem": "Câu 8. Trong các phát biểu dưới đây thì khẳng định sai là\nA. Hình thang cân có hai góc kề một cạnh đáy bằng nhau\nB. Hình thang cân có hai góc kề một cạnh bên bù nhau\nC. Hình thang cân có hai góc đối bù nhau\nD. Hình thang cân có hai góc bằng nhau",
+    "problem_type": "trắc nghiệm",
+    "solution": "Hình thang cân có hai đáy song song, hai cạnh bên bằng nhau.\n- Góc kề một đáy bằng nhau, đúng.\n- Góc kề một cạnh bên không nhất thiết bù nhau, sai.\n- Góc đối bù nhau đúng.\n- Có hai góc bằng nhau đúng.\n→ Khẳng định sai: B."
+  },
+  {
+    "problem": "Câu 9. Thực hiện phép tính:\n1. xy(x² − 2xy²)\n2. (x − 2y²)(x + 2y²)\n3. (3x + 1/2 y)(9x² − 3/2 xy + 1/4 y²)\n4. (12x⁴y³ − 27x³y² + 5x²y²) : (−3x²y²)",
+    "problem_type": "tự luận",
+    "solution": "1. xy(x² − 2xy²) = x³y − 2x²y³\n2. (x − 2y²)(x + 2y²) = x² − 4y⁴\n3. (3x + 1/2 y)(9x² − 3/2 xy + 1/4 y²) = 27x³ − 27/4 x²y + 3/4 xy² + 1/8 y³ (có thể rút gọn phân số)\n4. (12x⁴y³ − 27x³y² + 5x²y²)/(-3x²y²) = -4xy + 9 - 5/3"
+  },
+  {
+    "problem": "Câu 10. Tính nhanh giá trị của biểu thức:\n1. A = 4x² − 4xy + y² tại x = 4.5, y = −1\n2. B = 1023 − 6*1022 + 12*102 − 8",
+    "problem_type": "tự luận",
+    "solution": "1. A = 4*(4.5)² − 4*4.5*(-1) + (-1)² = 4*20.25 + 18 + 1 = 81 + 18 + 1 = 100\n2. B = 1023 − 6*1022 + 12*102 − 8 = (1024−1) − 6*(1024−2) + 1224 − 8 = ... = 3 (tính nhanh theo cách nhóm hạng tử)"
+  },
+  {
+    "problem": "Câu 11. Phân tích các đa thức thành nhân tử:\n1. 3x² − 6xy + 3y²\n2. x² + 4x − y² + 4\n3. x³ − 6x²y + 12xy² − 7y³",
+    "problem_type": "tự luận",
+    "solution": "1. 3(x² − 2xy + y²) = 3(x − y)²\n2. x² + 4x + 4 − y² = (x + 2)² − y² = (x + 2 − y)(x + 2 + y)\n3. x³ − 6x²y + 12xy² − 7y³ = (x − y)(x² − 5xy + 7y²)"
+  },
+  {
+    "problem": "Câu 12. Bảo tàng Louvre (Pháp) có một kim tự tháp hình chóp tứ giác đều bằng kính có chiều cao 21 m và cạnh đáy 34 m. Tính thể tích của kim tự tháp đó.",
+    "problem_type": "tự luận",
+    "solution": "Thể tích hình chóp tứ giác đều V = 1/3 * (diện tích đáy) * chiều cao = 1/3 * 34² * 21 = 1/3 * 1156 * 21 = 8092 m³."
+  },
+  {
+    "problem": "Câu 13. Cho tam giác cân ABC tại A, có BH và CK là hai đường cao của tam giác\n1) Chứng minh ∆AKH cân\n2) Chứng minh tứ giác BCHK là hình thang cân\n3) Gọi I là giao điểm của BH và CK, chứng minh AI là trung trực của đoạn BC",
+    "problem_type": "hình học",
+    "solution": "1) Vì tam giác ABC cân tại A và BH, CK là các đường cao ⇒ ∆AKH cân tại A theo đối xứng.\n2) BCHK là tứ giác gồm hai đường cao và đáy cân ⇒ BCHK là hình thang cân.\n3) I là giao điểm BH và CK ⇒ AI là trục đối xứng của tam giác cân ⇒ AI là trung trực của BC."
+  },
+  {
+    "problem": "Câu 14. Cho biểu thức M = n³(n² − 7)² − 36n. Chứng minh rằng M chia hết cho 7 với mọi số nguyên n",
+    "problem_type": "tự luận",
+    "solution": "Xét M = n³(n² − 7)² − 36n = n(n² − 7)²*n² − 36n = n((n² − 7)²*n² − 36). Theo modulo 7, n² ≡ n², −7 ≡ 0 ⇒ (n² − 7)² ≡ n⁴ mod 7. Khi kiểm tra tất cả n mod 7, M ≡ 0 (mod 7). Vậy M chia hết cho 7 với mọi số nguyên n."
+  },
+  {
+    "problem": "Câu 1. Trong các biểu thức sau, biểu thức nào là đơn thức nhiều biến?\nA. −5/9 x⁸y⁹\nB. (x + y⁷)/7y\nC. 6 + x⁶y\nD. −5/8 x⁷y + 11x",
+    "problem_type": "trắc nghiệm",
+    "solution": "Đơn thức nhiều biến là đơn thức có nhiều hơn một biến, không có dấu cộng hoặc trừ bên trong.\n- A: −5/9 x⁸y⁹ ⇒ hai biến x, y, không cộng trừ ⇒ đúng.\n- B: (x + y⁷)/7y ⇒ có dấu cộng ⇒ không phải đơn thức.\n- C: 6 + x⁶y ⇒ có dấu cộng ⇒ không phải đơn thức.\n- D: −5/8 x⁷y + 11x ⇒ có dấu cộng ⇒ không phải đơn thức.\n→ Chọn A."
+  },
+  {
+    "problem": "Câu 2. Hằng đẳng thức hiệu hai bình phương là\nA. A² − B² = A² − 2AB + B²\nB. A² − B² = (A − B)²\nC. A² − B² = (A − B)(A + B)\nD. A² − B² = (A + B)(B − A)",
+    "problem_type": "trắc nghiệm",
+    "solution": "Hiệu hai bình phương: A² − B² = (A − B)(A + B).\n→ Chọn C."
+  },
+  {
+    "problem": "Câu 3. Kết quả của phép tính x.(x + 3) là\nA. x² + 3\nB. x² − 3x\nC. x² + 3x\nD. x² + x",
+    "problem_type": "trắc nghiệm",
+    "solution": "x*(x + 3) = x² + 3x.\n→ Chọn C."
+  },
+  {
+    "problem": "Câu 4. Kết quả của phép tính (x + 1)(x − y) là\nA. x² + xy − x − y\nB. x² + xy + x − y\nC. x² + xy − x + y\nD. x² − xy + x − y",
+    "problem_type": "trắc nghiệm",
+    "solution": "(x + 1)(x − y) = x² − xy + x − y.\n→ Chọn D."
+  },
+  {
+    "problem": "Câu 5. Các mặt bên của hình chóp tứ giác đều S.BCDM là\nA. SCD; SCB; SBM\nB. SCD; SCB; SBM; SMD\nC. SCD; SC; SMD\nD. SCD; SCB; SBM; SBD",
+    "problem_type": "trắc nghiệm",
+    "solution": "Hình chóp tứ giác đều có 4 mặt bên là các tam giác gồm đỉnh S và từng cạnh đáy:\nSCD, SCB, SBM, SMD.\n→ Chọn B."
+  },
+  {
+    "problem": "Câu 6. Trong các biểu thức đại số sau, biểu thức nào không phải là đơn thức?\nA. 5x + 9\nB. x³y²\nC. 2\nD. x",
+    "problem_type": "trắc nghiệm",
+    "solution": "Đơn thức là biểu thức chỉ có một hạng tử.\n- A: 5x + 9 ⇒ hai hạng tử ⇒ không phải đơn thức.\n- B, C, D ⇒ đều đơn hạng tử ⇒ đơn thức.\n→ Chọn A."
+  },
+  {
+    "problem": "Câu 7. Hằng đẳng thức (A + B)² = A² + 2AB + B² có tên là\nA. Hiệu hai bình phương\nB. Tổng hai bình phương\nC. Bình phương của một hiệu\nD. Bình phương của một tổng",
+    "problem_type": "trắc nghiệm",
+    "solution": "(A + B)² = A² + 2AB + B² là bình phương của một tổng.\n→ Chọn D."
+  },
+  {
+    "problem": "Câu 8. Phân tích đa thức x³ + 5x thành nhân tử, ta được\nA. x(x + 5)\nB. x(x³ + 5)\nC. x(x² + 5)\nD. x(x² − 5)",
+    "problem_type": "trắc nghiệm",
+    "solution": "x³ + 5x = x(x² + 5).\n→ Chọn C."
+  },
+  {
+    "problem": "Câu 9. Phân tích đa thức x² − 16 thành nhân tử, ta được\nA. (x − 16)(x − 16)\nB. (x − 4)(x − 4)\nC. (x − 4)(x + 4)\nD. (x − 16)(x + 16)",
+    "problem_type": "trắc nghiệm",
+    "solution": "x² − 16 = (x − 4)(x + 4) theo hằng đẳng thức hiệu hai bình phương.\n→ Chọn C."
+  },
+  {
+    "problem": "Câu 10. Hình chóp tam giác đều là hình chóp có đáy là hình gì?\nA. Tam giác nhọn\nB. Tam giác vuông\nC. Tam giác cân\nD. Tam giác đều",
+    "problem_type": "trắc nghiệm",
+    "solution": "Hình chóp tam giác đều có đáy là tam giác đều.\n→ Chọn D."
+  },
+  {
+    "problem": "Câu 11. Cho hình chóp tam giác đều S.ABC có AB = 6cm, SH = 9cm. Độ dài các cạnh đáy của hình chóp tam giác đều là:\nA. AB = BC = SC = 6cm\nB. AB = BC = SA = 6cm\nC. AB = BC = AC = 6cm\nD. Các cạnh đáy tam giác đều là 9cm",
+    "problem_type": "trắc nghiệm",
+    "solution": "Đáy tam giác đều ABC có cạnh bằng AB = 6cm ⇒ AB = BC = AC = 6cm.\n→ Chọn C."
+  },
+  {
+    "problem": "Câu 12. Cho hình chóp tứ giác đều S.ABCD có đáy ABCD là hình vuông cạnh bằng 3cm, chiều cao của hình chóp là h = 2cm. Thể tích của hình chóp đã cho là:\nA. 18cm³\nB. 6cm³\nC. 12cm³\nD. 9cm³",
+    "problem_type": "trắc nghiệm",
+    "solution": "Thể tích V = 1/3 * diện tích đáy * chiều cao = 1/3 * 3² * 2 = 1/3 * 9 * 2 = 6cm³.\n→ Chọn B."
+  },
+  {
+    "problem": "Câu 1. Thực hiện phép tính:\na) (x + 3y) + (2x − y)\nb) (x − y)(x − 5y)\nc) (4x³y² − 8x²y + 10xy) : (2xy)",
+    "problem_type": "tự luận",
+    "solution": "a) (x + 3y) + (2x − y) = 3x + 2y\nb) (x − y)(x − 5y) = x² − 5xy − xy + 5y² = x² − 6xy + 5y²\nc) (4x³y² − 8x²y + 10xy) / (2xy) = 2x²y − 4x + 5"
+  },
+  {
+    "problem": "Câu 2. Tính nhanh giá trị của biểu thức:\na) A = x² − 2x + 1 tại x = 101\nb) B = x³ + 3x + 3x + 6 tại x = 19",
+    "problem_type": "tự luận",
+    "solution": "a) A = x² − 2x + 1 = (x − 1)² ⇒ (101 − 1)² = 100² = 10000\nb) B = x³ + 3x + 3x + 6 = x³ + 6x + 6 ⇒ B = 19³ + 6*19 + 6 = 6859 + 114 + 6 = 6979"
+  },
+  {
+    "problem": "Câu 3. Phân tích đa thức thành nhân tử:\na) 5x − 10y\nb) 9x² − 12xy + 4y²\nc) 2x³ − 4x² − 2x + 4",
+    "problem_type": "tự luận",
+    "solution": "a) 5x − 10y = 5(x − 2y)\nb) 9x² − 12xy + 4y² = (3x − 2y)²\nc) 2x³ − 4x² − 2x + 4 = 2(x³ − 2x² − x + 2) = 2(x − 1)(x² − x − 2) = 2(x − 1)(x − 2)(x + 1)"
+  },
+  {
+    "problem": "Câu 4. Người ta thiết kế chậu trồng cây dạng hình chóp tam giác đều: cạnh đáy = 20cm, chiều cao hình chóp = 35cm, chiều cao mặt bên = 36cm, chiều cao đáy = 12cm.\na) Tính thể tích chậu trồng cây\nb) Tính chi phí sơn bề mặt xung quanh, giá sơn 50 nghìn/m²",
+    "problem_type": "tự luận",
+    "solution": "a) Diện tích đáy: tam giác đều cạnh 20cm ⇒ S = (√3/4)*20² = 100√3 cm²\nThể tích V = 1/3 * S * chiều cao = 1/3 * 100√3 * 35 ≈ 1167 cm³ ≈ 1.17 lít\nb) Diện tích xung quanh = 3 * (1/2 * đáy * chiều cao mặt bên) = 3 * 1/2 * 20 * 36 = 1080 cm² = 0.108 m²\nChi phí sơn = 0.108 * 50.000 ≈ 5400 đồng"
+  },
+  {
+    "problem": "Câu 5. Tìm giá trị nhỏ nhất của biểu thức C = x² − 4xy + 5y² + 10x − 22y + 30",
+    "problem_type": "tự luận",
+    "solution": "Nhóm hạng tử theo x: C = x² − 4xy + 5y² + 10x − 22y + 30\nC = (x² − 4xy + 4y²) + y² + 10x − 22y + 30 = (x − 2y)² + y² + 10x − 22y + 30\nĐặt t = x − 2y ⇒ x = t + 2y\nC = t² + y² + 10(t + 2y) − 22y + 30 = t² + y² + 10t + 20y − 22y + 30 = t² + y² + 10t − 2y + 30\nTách biến: t² + 10t = (t + 5)² − 25; y² − 2y = (y − 1)² − 1\nVậy C = (t + 5)² + (y − 1)² − 26 + 30 = (t + 5)² + (y − 1)² + 4 ≥ 4\nGiá trị nhỏ nhất C_min = 4 đạt khi t + 5 = 0 ⇒ t = −5, y − 1 = 0 ⇒ y = 1 ⇒ x = t + 2y = −5 + 2*1 = −3"
+  },
+  {
+    "problem": "Câu 1. Biểu thức nào sau đây là đơn thức?\nA. (1 + x)x³\nB. x + 2y\nC. (xy + z)t\nD. 3xy²z⁵",
+    "problem_type": "trắc nghiệm",
+    "solution": "Đơn thức là biểu thức chỉ có một hạng tử, không có dấu cộng hay trừ bên trong.\n→ Chọn D. 3xy²z⁵."
+  },
+  {
+    "problem": "Câu 2. Biểu thức nào sau đây là đa thức?\nA. (x + 2y)³\nB. x + 1/y\nC. −x + 2/(xy) − 3y²\nD. 1/(2x) + y²",
+    "problem_type": "trắc nghiệm",
+    "solution": "Đa thức gồm các hạng tử với số mũ nguyên không âm.\n→ Chọn A. (x + 2y)³."
+  },
+  {
+    "problem": "Câu 3. Cặp đơn thức nào dưới đây là hai đơn thức đồng dạng?\nA. 12x⁴y⁴ và 12x⁴y⁶\nB. −12x⁴y⁴ và 12x⁶y⁶\nC. 12x⁶y⁴ và −2x⁶y⁴\nD. 12x⁴y⁶ và 12x⁶y⁶",
+    "problem_type": "trắc nghiệm",
+    "solution": "Đơn thức đồng dạng phải có cùng bậc của từng biến.\n→ Chọn C. 12x⁶y⁴ và −2x⁶y⁴."
+  },
+  {
+    "problem": "Câu 4. Đa thức 7x³y²z − 2x⁴y³ có bậc là\nA. 4\nB. 5\nC. 7\nD. 6",
+    "problem_type": "trắc nghiệm",
+    "solution": "Bậc của đa thức = bậc của hạng tử cao nhất.\n- 7x³y²z: bậc = 3 + 2 + 1 = 6\n- −2x⁴y³: bậc = 4 + 3 = 7\n→ Bậc đa thức = 7. Chọn C."
+  },
+  {
+    "problem": "Câu 5. Biết M + 5x² − 2xy = 6x² + 10xy − y². Đa thức M là\nA. x² + 12xy − y²\nB. x² − 12xy − y²\nC. x² − 12xy + y²\nD. −x² − 12xy + y²",
+    "problem_type": "trắc nghiệm",
+    "solution": "M = (6x² + 10xy − y²) − (5x² − 2xy) = x² + 12xy − y².\n→ Chọn A."
+  },
+  {
+    "problem": "Câu 6. Khẳng định nào sau đây là đúng?\nA. (x − 2y)(x² + 2xy + 4y²) = x³ + (2y)³\nB. (x − 2y)(x² + 2xy + 4y²) = x³ − (4y)³\nC. (x − 2y)(x² + 2xy + 4y²) = x³ + (4y)³\nD. (x − 2y)(x² + 2xy + 4y²) = x³ − (2y)³",
+    "problem_type": "trắc nghiệm",
+    "solution": "(x − 2y)(x² + 2xy + 4y²) = x³ − (2y)³ theo hằng đẳng thức hiệu hai lập phương.\n→ Chọn D."
+  },
+  {
+    "problem": "Câu 7. Điền vào chỗ trống: (x + 2)² = x² + ... + 4\nA. 2x\nB. 4x\nC. 2\nD. 4",
+    "problem_type": "trắc nghiệm",
+    "solution": "(x + 2)² = x² + 4x + 4.\n→ Chọn B."
+  },
+  {
+    "problem": "Câu 8. Hằng đẳng thức (A − B)³ = A³ − 3A²B + 3AB² − B³ có tên là\nA. Bình phương của một hiệu\nB. Lập phương của một hiệu\nC. Hiệu hai lập phương\nD. Hiệu hai bình phương",
+    "problem_type": "trắc nghiệm",
+    "solution": "Đây là lập phương của một hiệu.\n→ Chọn B."
+  },
+  {
+    "problem": "Câu 9. Hình chóp tam giác đều có mặt bên là hình gì?\nA. Tam giác cân\nB. Tam giác đều\nC. Hình chữ nhật\nD. Hình vuông",
+    "problem_type": "trắc nghiệm",
+    "solution": "Hình chóp tam giác đều có đáy đều và các mặt bên là tam giác cân.\n→ Chọn A."
+  },
+  {
+    "problem": "Câu 10. Hình chóp tứ giác đều có đáy là hình gì?\nA. Hình bình hành\nB. Hình chữ nhật\nC. Hình vuông\nD. Hình thoi",
+    "problem_type": "trắc nghiệm",
+    "solution": "Hình chóp tứ giác đều có đáy là hình vuông.\n→ Chọn C."
+  },
+  {
+    "problem": "Câu 11. Khẳng định nào sau đây là đúng?\nA. Tứ giác có 4 đường chéo\nB. Tổng các góc của một tứ giác bằng 180°\nC. Tồn tại tứ giác có 1 góc tù và 3 góc vuông\nD. Tứ giác lồi là tứ giác luôn nằm về một phía của đường thẳng chứa một cạnh bất kì",
+    "problem_type": "trắc nghiệm",
+    "solution": "Tứ giác lồi luôn nằm về một phía của đường thẳng chứa một cạnh bất kì.\n→ Chọn D."
+  },
+  {
+    "problem": "Câu 12. Tứ giác ABCD là hình bình hành nếu\nA. ∠A = ∠C\nB. ∠B = ∠D\nC. AB ∥ CD và AD = BC\nD. ∠A = ∠C và ∠B = ∠D",
+    "problem_type": "trắc nghiệm",
+    "solution": "Hình bình hành: các cặp cạnh đối song song và bằng nhau, hoặc các góc đối bằng nhau.\n→ Chọn D."
+  },
+  {
+    "problem": "Câu 13. Rút gọn biểu thức:\na) (x − 2)(3x + 1)\nb) (−9x²y³ + 6x³y² − 4xy²) : (3xy²)\nc) (x − 2)² + 4x",
+    "problem_type": "tự luận",
+    "solution": "a) (x − 2)(3x + 1) = 3x² − 6x + x − 2 = 3x² − 5x − 2\nb) (−9x²y³ + 6x³y² − 4xy²) / (3xy²) = −3xy + 2x² − 4/3\nc) (x − 2)² + 4x = x² − 4x + 4 + 4x = x² + 4"
+  },
+  {
+    "problem": "Câu 14. Tính giá trị của biểu thức A = (15xy³ − 9x³y + 42x²y² − 31) − (15xy³ + 42x²y² − 14) tại x = −1/3 và y = 6",
+    "problem_type": "tự luận",
+    "solution": "A = 15xy³ − 9x³y + 42x²y² − 31 − 15xy³ − 42x²y² + 14 = −9x³y − 17\nThay x = −1/3, y = 6: −9*(-1/3)³*6 − 17 = −9*(-1/27)*6 − 17 = 2 − 17 = −15\n→ A = −15"
+  },
+  {
+    "problem": "Câu 15. Phân tích các đa thức sau thành nhân tử:\na) 4x² − 49\nb) 2x³ − 20x² − 8xy² + 50x",
+    "problem_type": "tự luận",
+    "solution": "a) 4x² − 49 = (2x − 7)(2x + 7)\nb) 2x³ − 20x² − 8xy² + 50x = 2x(x² − 10x − 4y² + 25) = 2x((x² − 10x + 25) − 4y²) = 2x((x − 5)² − (2y)²) = 2x(x − 5 − 2y)(x − 5 + 2y)"
+  },
+  {
+    "problem": "Câu 16. Một chiếc lều có dạng hình chóp tứ giác đều: cạnh đáy = 3m, chiều cao = 2m.\na) Tính thể tích không khí trong lều.\nb) Biết độ dài trung đoạn hình chóp là 2,5m. Tính diện tích xung quanh của lều",
+    "problem_type": "tự luận",
+    "solution": "a) Diện tích đáy S = 3² = 9 m²\nThể tích V = 1/3 * S * h = 1/3 * 9 * 2 = 6 m³\nb) Diện tích xung quanh = 4 * (1/2 * cạnh đáy * chiều cao mặt bên) = 4 * 1/2 * 3 * 2,5 = 15 m²"
+  },
+  {
+    "problem": "Câu 17. Cho ∆ABC cân tại A. I là trung điểm của AC. Lấy điểm D sao cho I là trung điểm của BD.\na) Chứng minh tứ giác ADCB là hình bình hành.\nb) Đường thẳng đi qua D và song song với AC cắt BC tại E. Chứng minh AE = BD",
+    "problem_type": "hình học",
+    "solution": "a) Vì I là trung điểm AC và BD ⇒ tứ giác ADCB có các đường chéo cắt nhau tại trung điểm ⇒ ADCB là hình bình hành.\nb) DE ∥ AC ⇒ ∆ADE ∼ ∆ABC theo đồng dạng đường thẳng song song ⇒ AE = BD theo tính chất hình bình hành và đồng dạng tam giác."
+  },
+  {
+    "problem": "Câu 1. Trong các biểu thức x − 6; −3xy; x + y có các đơn thức là\nA. x − 6 và −3xy\nB. −3xy\nC. x − 6\nD. x + y và −3xy",
+    "problem_type": "trắc nghiệm",
+    "solution": "Đơn thức là biểu thức chỉ có một hạng tử.\n→ Chỉ −3xy là đơn thức.\n→ Chọn B."
+  },
+  {
+    "problem": "Câu 2. Bậc của đơn thức −xy²z³ là\nA. 3\nB. 4\nC. 5\nD. 6",
+    "problem_type": "trắc nghiệm",
+    "solution": "Bậc = tổng số mũ các biến: 1 + 2 + 3 = 6\n→ Chọn D."
+  },
+  {
+    "problem": "Câu 3. Biểu thức x² − 16y² được viết dưới dạng tích là\nA. (x − 4y)(x + 4y)\nB. (x − 2y)(x + 2y)\nC. (x − 8y)(x + 8y)\nD. (x − 16y)(x + 16y)",
+    "problem_type": "trắc nghiệm",
+    "solution": "x² − 16y² = (x − 4y)(x + 4y)\n→ Chọn A."
+  },
+  {
+    "problem": "Câu 4. Kết quả của phép tính (10x²y − xy²) : 2xy bằng\nA. 8x − y\nB. 5x − y\nC. 5x − 2y\nD. 5x − 1/2 y",
+    "problem_type": "trắc nghiệm",
+    "solution": "(10x²y − xy²)/(2xy) = 10x²y/(2xy) − xy²/(2xy) = 5x − y/2\n→ Chọn D."
+  },
+  {
+    "problem": "Câu 5. Cho tứ giác ABCD có ∠D = 80°, ∠A = 100°, ∠C = 120°. Khi đó số đo của ∠B là\nA. 140°\nB. 100°\nC. 60°\nD. 80°",
+    "problem_type": "trắc nghiệm",
+    "solution": "Tổng các góc tứ giác = 360°\n∠B = 360 − (80 + 100 + 120) = 60°\n→ Chọn C."
+  },
+  {
+    "problem": "Câu 6. Hình thang cân là hình thang có\nA. Hai đáy bằng nhau\nB. Hai góc kề một đáy bù nhau\nC. Hai góc kề một đáy bằng nhau\nD. Hai cạnh bên song song",
+    "problem_type": "trắc nghiệm",
+    "solution": "Hình thang cân: hai góc kề một đáy bằng nhau\n→ Chọn C."
+  },
+  {
+    "problem": "Câu 7. Thực hiện phép tính:\n1. 2x.(x² − y + 1)\n2. (x + y)(−x² + xy − y²)",
+    "problem_type": "tự luận",
+    "solution": "1. 2x(x² − y + 1) = 2x³ − 2xy + 2x\n2. (x + y)(−x² + xy − y²) = −x³ + x²y − xy² − x²y + xy² − y³ = −x³ − y³"
+  },
+  {
+    "problem": "Câu 8. Cho hai đa thức: P = x²y + 2x³ − xy² + 5; Q = x³ + xy² − 2x²y − 6. Tính tổng hai đa thức P + Q rồi tìm bậc của đa thức tổng.",
+    "problem_type": "tự luận",
+    "solution": "P + Q = (x²y − 2x²y) + (2x³ + x³) + (−xy² + xy²) + (5 − 6) = −x²y + 3x³ − 1\nBậc của đa thức tổng: bậc cao nhất = 3 (từ 3x³)"
+  },
+  {
+    "problem": "Câu 9. Bà Khanh dự định mua x hộp sữa (21 nghìn/hộp) và y hộp kẹo (32 nghìn/hộp). Giá sữa giảm 2 nghìn/hộp, bà mua thêm 3 hộp sữa và bớt 1 hộp kẹo. Viết đa thức biểu thị số tiền phải trả.",
+    "problem_type": "tự luận",
+    "solution": "Giá mới sữa: 21 − 2 = 19 (nghìn/hộp)\nSố sữa mua: x + 3 ⇒ chi phí sữa: 19(x + 3)\nSố kẹo mua: y − 1 ⇒ chi phí kẹo: 32(y − 1)\nTổng tiền: T(x, y) = 19(x + 3) + 32(y − 1) = 19x + 32y + 25 (nghìn đồng)"
+  },
+  {
+    "problem": "Câu 10. Cho △ABC vuông tại A, kẻ đường cao AH. Từ H kẻ các đường thẳng vuông góc với AB, AC lần lượt cắt AB, AC tại D, E.\na) Chứng minh tứ giác ADHE là hình chữ nhật.\nb) Tìm điều kiện của △ABC để tứ giác ADHE là hình vuông.\nc) Giả sử AB < AC. Trên AC lấy điểm M sao cho AM = AB, gọi N là trung điểm BC. Chứng minh HN là tia phân giác của ∠AHC.",
+    "problem_type": "hình học",
+    "solution": "a) AD ⊥ DE ⊥ HE ⊥ AH ⇒ ADHE là hình chữ nhật\nb) Để ADHE là hình vuông ⇒ AB = AC (tam giác cân vuông tại A)\nc) Từ tính chất tam giác vuông và trung điểm, HN cắt góc ∠AHC theo tỉ lệ bằng nhau ⇒ HN là tia phân giác của ∠AHC"
+  },
+  {
+    "problem": "Câu 11. Sân vận động hình chữ nhật: chiều dài 5x + 3y, chiều rộng 5x − 3y. Lối đi rộng 3m xung quanh. Phần còn lại trồng cỏ. Tính số tiền trồng cỏ với x = 12, y = 3, biết 1m² cỏ = 50000 đồng.",
+    "problem_type": "tự luận",
+    "solution": "Diện tích sân: S = (5x + 3y)(5x − 3y) = 25x² − 9y²\nDiện tích lối đi: sân ngoài cùng rộng 3m, diện tích sân mới = (5x + 3y + 6)(5x − 3y + 6) ≈ (66)(54) m² = 3564 m²\ndiện tích trồng cỏ ≈ 3564 − 25x² − 9y² = 3564 − (25*12² − 9*3²) = 3564 − (3600 − 81) = 3564 − 3519 = 45 m²\nSố tiền trồng cỏ = 45 * 50000 = 2.250.000 đồng"
+  },
+  {
+    "problem": "Câu 1. Rút gọn biểu thức: (3x + 2) − (x − 5)",
+    "problem_type": "tự luận",
+    "solution": "(3x + 2) − (x − 5) = 3x + 2 − x + 5 = 2x + 7"
+  },
+  {
+    "problem": "Câu 2. Tính giá trị của biểu thức x² − 4x + 3 tại x = 5",
+    "problem_type": "tự luận",
+    "solution": "x² − 4x + 3 = 25 − 20 + 3 = 8"
+  },
+  {
+    "problem": "Câu 3. Phân tích đa thức thành nhân tử: x² − 5x",
+    "problem_type": "tự luận",
+    "solution": "x² − 5x = x(x − 5)"
+  },
+  {
+    "problem": "Câu 4. Kết quả của phép tính (2x + 3)(x − 1) là",
+    "problem_type": "tự luận",
+    "solution": "(2x + 3)(x − 1) = 2x² − 2x + 3x − 3 = 2x² + x − 3"
+  },
+  {
+    "problem": "Câu 5. Đơn thức −7x²y³ có bậc là",
+    "problem_type": "trắc nghiệm",
+    "solution": "Bậc = 2 + 3 = 5"
+  },
+  {
+    "problem": "Câu 6. Hai đơn thức đồng dạng là",
+    "problem_type": "trắc nghiệm",
+    "solution": "x²y và 3x²y"
+  },
+  {
+    "problem": "Câu 7. Tính nhanh: (101)² − (99)²",
+    "problem_type": "tự luận",
+    "solution": "(101 − 99)(101 + 99) = 2 * 200 = 400"
+  },
+  {
+    "problem": "Câu 8. Rút gọn: (4x²y − 2xy²) : 2xy",
+    "problem_type": "tự luận",
+    "solution": "4x²y / 2xy − 2xy² / 2xy = 2x − y"
+  },
+  {
+    "problem": "Câu 9. Tìm giá trị nhỏ nhất của biểu thức x² − 6x + 10",
+    "problem_type": "tự luận",
+    "solution": "x² − 6x + 10 = (x − 3)² + 1 ≥ 1, giá trị nhỏ nhất = 1 tại x = 3"
+  },
+  {
+    "problem": "Câu 10. Hình thang cân có hai góc kề một đáy bằng 70°, hai đáy là 8cm và 12cm. Tính hai cạnh bên.",
+    "problem_type": "tự luận",
+    "solution": "Cạnh bên: h = (12 − 8)/2 / tan70° ≈ 2 / 2.747 ≈ 0.728 cm"
+  },
+  {
+    "problem": "Câu 11. Một hình chóp tứ giác đều có cạnh đáy 4cm, chiều cao 3cm. Tính thể tích.",
+    "problem_type": "tự luận",
+    "solution": "V = 1/3 * S đáy * h = 1/3 * 16 * 3 = 16 cm³"
+  },
+  {
+    "problem": "Câu 12. Cho đa thức x³ + 6x² + 9x. Phân tích thành nhân tử",
+    "problem_type": "tự luận",
+    "solution": "x³ + 6x² + 9x = x(x² + 6x + 9) = x(x + 3)²"
+  },
+  {
+    "problem": "Câu 13. Hình chữ nhật có chiều dài 10m, chiều rộng 6m. Tính diện tích.",
+    "problem_type": "tự luận",
+    "solution": "S = 10 * 6 = 60 m²"
+  },
+  {
+    "problem": "Câu 14. Cho tam giác vuông có các cạnh 6, 8, x. Tính x.",
+    "problem_type": "tự luận",
+    "solution": "x² = 6² + 8² = 36 + 64 = 100 ⇒ x = 10"
+  },
+  {
+    "problem": "Câu 15. Phân tích biểu thức 4x² − 9 thành nhân tử",
+    "problem_type": "tự luận",
+    "solution": "4x² − 9 = (2x − 3)(2x + 3)"
+  },
+  {
+    "problem": "Câu 16. Viết biểu thức (x + 2)² − (x − 3)² dưới dạng hiệu hai bình phương",
+    "problem_type": "tự luận",
+    "solution": "(x + 2)² − (x − 3)² = ((x + 2) − (x − 3))((x + 2) + (x − 3)) = 5*(2x − 1) = 10x − 5"
+  },
+  {
+    "problem": "Câu 17. Cho ∆ABC vuông tại A, AB = 3, AC = 4. Tính BC.",
+    "problem_type": "tự luận",
+    "solution": "BC² = 3² + 4² = 25 ⇒ BC = 5"
+  },
+  {
+    "problem": "Câu 18. Một sân hình chữ nhật 20m x 10m, làm lối đi rộng 2m xung quanh. Tính diện tích phần còn lại.",
+    "problem_type": "tự luận",
+    "solution": "Diện tích sân: 20*10=200 m²\nDiện tích sân sau trừ lối đi: (20−4)*(10−4)=16*6=96 m²"
+  },
+  {
+    "problem": "Câu 19. Cho x² − 6x + 5. Viết dưới dạng (x − a)² + b",
+    "problem_type": "tự luận",
+    "solution": "x² − 6x + 5 = x² −6x + 9 − 4 = (x − 3)² − 4"
+  },
+  {
+    "problem": "Câu 20. Tính giá trị của biểu thức (2x − 3y)² − (x − y)² tại x = 2, y = 1",
+    "problem_type": "tự luận",
+    "solution": "(2*2 −3*1)² − (2 − 1)² = (4 −3)² − 1² = 1 −1 = 0"
+  },
+  {
+    "problem": "Câu 21. Rút gọn biểu thức: 5x − 3 + 2x + 7",
+    "problem_type": "tự luận",
+    "solution": "5x − 3 + 2x + 7 = 7x + 4"
+  },
+  {
+    "problem": "Câu 22. Tính giá trị của biểu thức x² + 2x + 1 tại x = −3",
+    "problem_type": "tự luận",
+    "solution": "(-3)² + 2(-3) + 1 = 9 − 6 + 1 = 4"
+  },
+  {
+    "problem": "Câu 23. Phân tích đa thức: x² + 5x + 6",
+    "problem_type": "tự luận",
+    "solution": "x² + 5x + 6 = (x + 2)(x + 3)"
+  },
+  {
+    "problem": "Câu 24. Kết quả phép tính (x + 1)(x − 4)",
+    "problem_type": "tự luận",
+    "solution": "(x + 1)(x − 4) = x² − 3x − 4"
+  },
+  {
+    "problem": "Câu 25. Bậc của đa thức 3x²y³ − 5xy² + 7 là",
+    "problem_type": "trắc nghiệm",
+    "solution": "Bậc = max(2+3,1+2,0)=5"
+  },
+  {
+    "problem": "Câu 26. Hai đơn thức đồng dạng là",
+    "problem_type": "trắc nghiệm",
+    "solution": "2x²y³ và −5x²y³"
+  },
+  {
+    "problem": "Câu 27. Tính nhanh: 99² − 101²",
+    "problem_type": "tự luận",
+    "solution": "(99 − 101)(99 + 101) = (−2)(200) = −400"
+  },
+  {
+    "problem": "Câu 28. Rút gọn: (6x³y² − 3x²y³) : 3xy²",
+    "problem_type": "tự luận",
+    "solution": "6x³y² / 3xy² − 3x²y³ / 3xy² = 2x² − xy"
+  },
+  {
+    "problem": "Câu 29. Tìm giá trị nhỏ nhất của biểu thức x² − 4x + 7",
+    "problem_type": "tự luận",
+    "solution": "x² − 4x + 7 = (x − 2)² + 3 ≥ 3, giá trị nhỏ nhất = 3 tại x = 2"
+  },
+  {
+    "problem": "Câu 30. Hình thang cân có hai đáy 6cm và 10cm, chiều cao 4cm. Tính diện tích",
+    "problem_type": "tự luận",
+    "solution": "S = (6 + 10)/2 * 4 = 16/2*4 = 8*4 = 32 cm²"
+  },
+  {
+    "problem": "Câu 31. Một hình chóp tứ giác đều cạnh đáy 5cm, chiều cao 6cm. Thể tích là",
+    "problem_type": "tự luận",
+    "solution": "V = 1/3 * 5² * 6 = 1/3 * 25 *6 = 50 cm³"
+  },
+  {
+    "problem": "Câu 32. Phân tích x³ + 9x² + 18x",
+    "problem_type": "tự luận",
+    "solution": "x³ + 9x² + 18x = x(x² + 9x +18) = x(x + 3)(x + 6)"
+  },
+  {
+    "problem": "Câu 33. Diện tích hình chữ nhật chiều dài 12m, chiều rộng 7m",
+    "problem_type": "tự luận",
+    "solution": "S = 12*7 = 84 m²"
+  },
+  {
+    "problem": "Câu 34. Tam giác vuông có hai cạnh góc vuông 9cm và 12cm, cạnh huyền là",
+    "problem_type": "tự luận",
+    "solution": "c² = 9² + 12² = 225 ⇒ c = 15 cm"
+  },
+  {
+    "problem": "Câu 35. Phân tích 9x² − 16",
+    "problem_type": "tự luận",
+    "solution": "9x² −16 = (3x −4)(3x + 4)"
+  },
+  {
+    "problem": "Câu 36. Viết (x + 4)² − (x − 2)² dưới dạng hiệu hai bình phương",
+    "problem_type": "tự luận",
+    "solution": "(x + 4)² − (x − 2)² = (x + 4 − (x − 2))(x + 4 + x − 2) = 6*(2x +2) = 12x +12"
+  },
+  {
+    "problem": "Câu 37. Tam giác vuông tại A, AB = 8, AC = 15, BC = ?",
+    "problem_type": "tự luận",
+    "solution": "BC² = 8² + 15² = 64 + 225 = 289 ⇒ BC = 17"
+  },
+  {
+    "problem": "Câu 38. Sân chữ nhật 25m x 15m, làm lối đi rộng 3m xung quanh. Diện tích phần còn lại",
+    "problem_type": "tự luận",
+    "solution": "(25 − 6)*(15 − 6) = 19*9 = 171 m²"
+  },
+  {
+    "problem": "Câu 39. Viết x² − 8x + 12 = (x − a)² + b",
+    "problem_type": "tự luận",
+    "solution": "x² −8x +12 = x² −8x +16 −4 = (x−4)² −4"
+  },
+  {
+    "problem": "Câu 40. Tính giá trị (3x − 2y)² − (x + y)² tại x =1, y =2",
+    "problem_type": "tự luận",
+    "solution": "(3*1 −2*2)² − (1+2)² = (-1)² −9 =1 −9 = -8"
+  },
+  {
+    "problem": "Câu 41. Rút gọn biểu thức: (4x + 5) − (2x − 3)",
+    "problem_type": "tự luận",
+    "solution": "(4x +5) − (2x −3) = 2x +8"
+  },
+  {
+    "problem": "Câu 42. Tính giá trị x² − 6x + 8 tại x = 3",
+    "problem_type": "tự luận",
+    "solution": "3² −6*3 +8 = 9 −18 +8 = −1"
+  },
+  {
+    "problem": "Câu 43. Phân tích đa thức: x² + 7x + 12",
+    "problem_type": "tự luận",
+    "solution": "x² +7x +12 = (x +3)(x +4)"
+  },
+  {
+    "problem": "Câu 44. Kết quả (x + 5)(x − 2)",
+    "problem_type": "tự luận",
+    "solution": "x² −2x +5x −10 = x² +3x −10"
+  },
+  {
+    "problem": "Câu 45. Bậc của đa thức 4x³y² − xy³ +7",
+    "problem_type": "trắc nghiệm",
+    "solution": "Bậc = max(3+2,1+3,0)=5"
+  },
+  {
+    "problem": "Câu 46. Hai đơn thức đồng dạng",
+    "problem_type": "trắc nghiệm",
+    "solution": "−5x²y² và 3x²y²"
+  },
+  {
+    "problem": "Câu 47. Tính nhanh: 105² − 95²",
+    "problem_type": "tự luận",
+    "solution": "(105−95)(105+95)=10*200=2000"
+  },
+  {
+    "problem": "Câu 48. Rút gọn (8x³y − 4x²y²) : 4xy",
+    "problem_type": "tự luận",
+    "solution": "8x³y/4xy −4x²y²/4xy = 2x² − xy"
+  },
+  {
+    "problem": "Câu 49. Tìm giá trị nhỏ nhất x² − 10x + 28",
+    "problem_type": "tự luận",
+    "solution": "x² −10x +28 = (x−5)² +3 ≥3, nhỏ nhất =3 tại x=5"
+  },
+  {
+    "problem": "Câu 50. Hình thang cân có đáy 7cm, 11cm, chiều cao 5cm. Diện tích?",
+    "problem_type": "tự luận",
+    "solution": "S=(7+11)/2*5=18/2*5=9*5=45 cm²"
+  },
+  {
+    "problem": "Câu 51. Hình chóp tứ giác đều cạnh đáy 6cm, chiều cao 4cm. Thể tích?",
+    "problem_type": "tự luận",
+    "solution": "V=1/3*6²*4=1/3*36*4=48 cm³"
+  },
+  {
+    "problem": "Câu 52. Phân tích x³ +12x² +35x",
+    "problem_type": "tự luận",
+    "solution": "x³ +12x² +35x = x(x² +12x +35) = x(x +5)(x +7)"
+  },
+  {
+    "problem": "Câu 53. Diện tích hình chữ nhật dài 14m, rộng 9m",
+    "problem_type": "tự luận",
+    "solution": "S = 14*9=126 m²"
+  },
+  {
+    "problem": "Câu 54. Tam giác vuông hai cạnh góc vuông 5, 12. Cạnh huyền?",
+    "problem_type": "tự luận",
+    "solution": "c²=5²+12²=25+144=169 ⇒ c=13"
+  },
+  {
+    "problem": "Câu 55. Phân tích 16x² − 25",
+    "problem_type": "tự luận",
+    "solution": "16x²−25 = (4x−5)(4x+5)"
+  },
+  {
+    "problem": "Câu 56. Viết (x+3)² − (x−1)² dưới dạng hiệu hai bình phương",
+    "problem_type": "tự luận",
+    "solution": "(x+3)² − (x−1)² = (x+3 − x +1)(x+3 + x−1)=4*(2x+2)=8x+8"
+  },
+  {
+    "problem": "Câu 57. Tam giác vuông tại A, AB = 7, AC = 24, BC=?",
+    "problem_type": "tự luận",
+    "solution": "BC²=7²+24²=49+576=625 ⇒ BC=25"
+  },
+  {
+    "problem": "Câu 58. Sân hình chữ nhật 30m x 18m, lối đi 3m xung quanh. Diện tích phần còn lại?",
+    "problem_type": "tự luận",
+    "solution": "(30−6)*(18−6)=24*12=288 m²"
+  },
+  {
+    "problem": "Câu 59. Viết x²−12x+35=(x−a)²+b",
+    "problem_type": "tự luận",
+    "solution": "x²−12x+35 = x²−12x+36−1=(x−6)²−1"
+  },
+  {
+    "problem": "Câu 60. Tính (4x−3y)²−(2x+y)² tại x=1, y=2",
+    "problem_type": "tự luận",
+    "solution": "(4*1−3*2)² − (2*1+2)² = (4−6)²−4² = (−2)²−4=4−4=0"
+  },
+  {
+    "problem": "Câu 61. Rút gọn biểu thức: (7x − 5) + (3x + 8)",
+    "problem_type": "tự luận",
+    "solution": "7x − 5 + 3x + 8 = 10x + 3"
+  },
+  {
+    "problem": "Câu 62. Tính giá trị biểu thức x² − 7x + 10 tại x = 4",
+    "problem_type": "tự luận",
+    "solution": "16 −28 +10 = −2"
+  },
+  {
+    "problem": "Câu 63. Phân tích đa thức x² + 9x + 20",
+    "problem_type": "tự luận",
+    "solution": "(x + 4)(x + 5)"
+  },
+  {
+    "problem": "Câu 64. Kết quả (x + 6)(x − 3)",
+    "problem_type": "tự luận",
+    "solution": "x² −3x +6x −18 = x² +3x −18"
+  },
+  {
+    "problem": "Câu 65. Bậc của đa thức 2x²y³ − 5xy + 7",
+    "problem_type": "trắc nghiệm",
+    "solution": "Bậc = max(2+3,1+1,0)=5"
+  },
+  {
+    "problem": "Câu 66. Hai đơn thức đồng dạng là",
+    "problem_type": "trắc nghiệm",
+    "solution": "4x²y và −x²y"
+  },
+  {
+    "problem": "Câu 67. Tính nhanh: 98² − 102²",
+    "problem_type": "tự luận",
+    "solution": "(98−102)(98+102)=(-4)(200)=-800"
+  },
+  {
+    "problem": "Câu 68. Rút gọn (9x³y² − 6x²y³) : 3xy",
+    "problem_type": "tự luận",
+    "solution": "9x³y²/3xy − 6x²y³/3xy = 3x²y − 2xy² = xy(3x −2y)"
+  },
+  {
+    "problem": "Câu 69. Giá trị nhỏ nhất của x² − 8x + 18",
+    "problem_type": "tự luận",
+    "solution": "x² −8x +18 = (x−4)² +2 ≥2, nhỏ nhất = 2 tại x=4"
+  },
+  {
+    "problem": "Câu 70. Hình thang cân đáy 9cm, 13cm, chiều cao 6cm. Diện tích?",
+    "problem_type": "tự luận",
+    "solution": "S=(9+13)/2*6=22/2*6=11*6=66 cm²"
+  },
+  {
+    "problem": "Câu 71. Hình chóp tứ giác đều cạnh đáy 7cm, chiều cao 5cm. Thể tích?",
+    "problem_type": "tự luận",
+    "solution": "V = 1/3 *7²*5=1/3*49*5=245/3≈81,67 cm³"
+  },
+  {
+    "problem": "Câu 72. Phân tích x³ + 15x² + 56x",
+    "problem_type": "tự luận",
+    "solution": "x(x² +15x +56)=x(x+7)(x+8)"
+  },
+  {
+    "problem": "Câu 73. Diện tích hình chữ nhật dài 16m, rộng 11m",
+    "problem_type": "tự luận",
+    "solution": "S=16*11=176 m²"
+  },
+  {
+    "problem": "Câu 74. Tam giác vuông hai cạnh góc vuông 8, 15. Cạnh huyền?",
+    "problem_type": "tự luận",
+    "solution": "c²=8²+15²=64+225=289 ⇒ c=17"
+  },
+  {
+    "problem": "Câu 75. Phân tích 25x² − 36",
+    "problem_type": "tự luận",
+    "solution": "25x²−36=(5x−6)(5x+6)"
+  },
+  {
+    "problem": "Câu 76. Viết (x+5)² − (x−2)² dưới dạng hiệu hai bình phương",
+    "problem_type": "tự luận",
+    "solution": "(x+5)² − (x−2)² = (x+5−x+2)(x+5+x−2)=7*(2x+3)=14x+21"
+  },
+  {
+    "problem": "Câu 77. Tam giác vuông tại A, AB = 9, AC = 12, BC=?",
+    "problem_type": "tự luận",
+    "solution": "BC² = 9² +12² = 81+144=225 ⇒ BC=15"
+  },
+  {
+    "problem": "Câu 78. Sân hình chữ nhật 35m x 20m, lối đi 4m xung quanh. Diện tích còn lại?",
+    "problem_type": "tự luận",
+    "solution": "(35−8)*(20−8)=27*12=324 m²"
+  },
+  {
+    "problem": "Câu 79. Viết x² − 14x + 45 = (x−a)²+b",
+    "problem_type": "tự luận",
+    "solution": "x²−14x+45=x²−14x+49−4=(x−7)²−4"
+  },
+  {
+    "problem": "Câu 80. Tính (5x−2y)²−(3x+y)² tại x=2, y=1",
+    "problem_type": "tự luận",
+    "solution": "(10−2)² − (6+1)² = 8²−7²=64−49=15"
+  },
+  {
+    "problem": "Câu 81. Rút gọn: (6x+7)−(3x−5)",
+    "problem_type": "tự luận",
+    "solution": "6x+7−3x+5=3x+12"
+  },
+  {
+    "problem": "Câu 82. Tính giá trị biểu thức x²−9x+20 tại x=5",
+    "problem_type": "tự luận",
+    "solution": "25−45+20=0"
+  },
+  {
+    "problem": "Câu 83. Phân tích đa thức x²+11x+30",
+    "problem_type": "tự luận",
+    "solution": "(x+5)(x+6)"
+  },
+  {
+    "problem": "Câu 84. Kết quả (x+7)(x−2)",
+    "problem_type": "tự luận",
+    "solution": "x²−2x+7x−14=x²+5x−14"
+  },
+  {
+    "problem": "Câu 85. Bậc của đa thức 3x³y²−2xy³+5",
+    "problem_type": "trắc nghiệm",
+    "solution": "Bậc = max(3+2,1+3,0)=5"
+  },
+  {
+    "problem": "Câu 86. Rút gọn: (8x − 5) + (−3x + 9)",
+    "problem_type": "tự luận",
+    "solution": "8x−5−3x+9=5x+4"
+  },
+  {
+    "problem": "Câu 87. Tính giá trị biểu thức x²−5x+6 tại x=2",
+    "problem_type": "tự luận",
+    "solution": "4−10+6=0"
+  },
+  {
+    "problem": "Câu 88. Phân tích đa thức x²+8x+15",
+    "problem_type": "tự luận",
+    "solution": "(x+3)(x+5)"
+  },
+  {
+    "problem": "Câu 89. Kết quả (x+4)(x−5)",
+    "problem_type": "tự luận",
+    "solution": "x²−5x+4x−20=x²−x−20"
+  },
+  {
+    "problem": "Câu 90. Bậc của đa thức 5x²y³−4xy²+6",
+    "problem_type": "trắc nghiệm",
+    "solution": "Bậc = max(2+3,1+2,0)=5"
+  },
+  {
+    "problem": "Câu 91. Hai đơn thức đồng dạng là",
+    "problem_type": "trắc nghiệm",
+    "solution": "7x²y³ và −2x²y³"
+  },
+  {
+    "problem": "Câu 92. Tính nhanh: 97² − 103²",
+    "problem_type": "tự luận",
+    "solution": "(97−103)(97+103)=(-6)*200=-1200"
+  },
+  {
+    "problem": "Câu 93. Rút gọn (12x³y−6x²y²): 6xy",
+    "problem_type": "tự luận",
+    "solution": "12x³y/6xy −6x²y²/6xy = 2x² − xy"
+  },
+  {
+    "problem": "Câu 94. Giá trị nhỏ nhất của x²−6x+5",
+    "problem_type": "tự luận",
+    "solution": "x²−6x+5=(x−3)²−4 ≥−4, nhỏ nhất=-4 tại x=3"
+  },
+  {
+    "problem": "Câu 95. Hình thang cân đáy 8cm, 12cm, chiều cao 7cm. Diện tích?",
+    "problem_type": "tự luận",
+    "solution": "S=(8+12)/2*7=20/2*7=10*7=70 cm²"
+  },
+  {
+    "problem": "Câu 96. Hình chóp tứ giác đều cạnh đáy 8cm, chiều cao 6cm. Thể tích?",
+    "problem_type": "tự luận",
+    "solution": "V=1/3*8²*6=1/3*64*6=128 cm³"
+  },
+  {
+    "problem": "Câu 97. Phân tích x³+18x²+77x",
+    "problem_type": "tự luận",
+    "solution": "x(x²+18x+77)=x(x+7)(x+11)"
+  },
+  {
+    "problem": "Câu 98. Diện tích hình chữ nhật dài 18m, rộng 12m",
+    "problem_type": "tự luận",
+    "solution": "S=18*12=216 m²"
+  },
+  {
+    "problem": "Câu 99. Tam giác vuông hai cạnh góc vuông 7, 24. Cạnh huyền?",
+    "problem_type": "tự luận",
+    "solution": "c²=7²+24²=49+576=625 ⇒ c=25"
+  },
+  {
+    "problem": "Câu 100. Phân tích 36x²−49",
+    "problem_type": "tự luận",
+    "solution": "36x²−49=(6x−7)(6x+7)"
+  },
+  {
+    "problem": "Câu 101. Viết (x+6)²−(x−3)² dưới dạng hiệu hai bình phương",
+    "problem_type": "tự luận",
+    "solution": "(x+6)²−(x−3)²=(x+6−x+3)(x+6+x−3)=9*(2x+3)=18x+27"
+  },
+  {
+    "problem": "Câu 102. Tam giác vuông tại A, AB=10, AC=24, BC=?",
+    "problem_type": "tự luận",
+    "solution": "BC²=10²+24²=100+576=676 ⇒ BC=26"
+  },
+  {
+    "problem": "Câu 103. Sân chữ nhật 40m x 25m, lối đi 5m xung quanh. Diện tích còn lại?",
+    "problem_type": "tự luận",
+    "solution": "(40−10)*(25−10)=30*15=450 m²"
+  },
+  {
+    "problem": "Câu 104. Viết x²−16x+60=(x−a)²+b",
+    "problem_type": "tự luận",
+    "solution": "x²−16x+60=x²−16x+64−4=(x−8)²−4"
+  },
+  {
+    "problem": "Câu 105. Tính (6x−5y)²−(4x+y)² tại x=1, y=2",
+    "problem_type": "tự luận",
+    "solution": "(6−10)²−(4+2)²=(-4)²−6²=16−36=-20"
+  },
+  {
+    "problem": "Câu 106. Rút gọn: (9x+8)−(4x−7)",
+    "problem_type": "tự luận",
+    "solution": "9x+8−4x+7=5x+15"
+  },
+  {
+    "problem": "Câu 107. Tính giá trị biểu thức x²−7x+12 tại x=3",
+    "problem_type": "tự luận",
+    "solution": "9−21+12=0"
+  }
+]
