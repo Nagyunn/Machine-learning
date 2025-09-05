@@ -1,0 +1,226 @@
+[
+    {
+      "question": "Mô hình tuyến tính (linear model) là gì?",
+      "answer": "Mô hình tuyến tính giả định rằng đầu ra (output) là sự kết hợp tuyến tính có trọng số của các đặc trưng đầu vào. Công thức: y = Σ(w_d * x_d) = w^T x."
+    },
+    {
+      "question": "Ý nghĩa của vector trọng số w trong mô hình tuyến tính là gì?",
+      "answer": "Vector trọng số w = [w1, w2, …, wD] xác định tầm quan trọng của từng đặc trưng đầu vào. Mỗi w_d cho biết mức đóng góp của đặc trưng x_d trong việc dự đoán đầu ra."
+    },
+    {
+      "question": "Làm sao để tìm được trọng số tối ưu trong mô hình tuyến tính?",
+      "answer": "Các trọng số tối ưu không được biết trước mà phải học thông qua việc giải một bài toán tối ưu hóa dựa trên dữ liệu huấn luyện."
+    },
+    {
+      "question": "Mô hình tuyến tính có thể được sử dụng cho những bài toán nào?",
+      "answer": "Linear Regression; hoặc như một khối cơ bản cho mô hình phức tạp hơn như phân loại (binary, multiclass, multi-output, multi-label) và học không giám sát (ví dụ: dimensionality reduction)."
+    },
+{
+      "question": "Dữ liệu đầu vào của bài toán hồi quy tuyến tính gồm những gì?",
+      "answer": "Dữ liệu huấn luyện gồm N cặp (x_n, y_n), trong đó x_n ∈ R^D là vector đặc trưng và y_n ∈ R là giá trị đầu ra thực."
+    },
+    {
+      "question": "Mục tiêu của Linear Regression là gì?",
+      "answer": "Mục tiêu là học một mô hình dự đoán đầu ra y cho các dữ liệu mới dựa trên dữ liệu huấn luyện."
+    },
+    {
+      "question": "Giả định mô hình tuyến tính được viết như thế nào?",
+      "answer": "Mỗi đầu ra y_n được xấp xỉ bởi f(x_n) = w^T x_n, với n = 1, 2, …, N. Dưới dạng ma trận, có thể viết gọn là y ≈ Xw."
+    },
+    {
+      "question": "Hàm mất mát (loss function) trong hồi quy tuyến tính được định nghĩa như thế nào?",
+      "answer": "Tổng loss trên tập huấn luyện là: L(w) = Σ (ℓ(y_n, w^T x_n)), trong đó ℓ đo lường sai số dự đoán giữa nhãn thật y_n và dự đoán w^T x_n."
+    },
+    {
+      "question": "Điểm khác biệt của Linear Regression so với KNN hoặc Decision Tree là gì?",
+      "answer": "Linear Regression có một hàm mục tiêu (loss function) rõ ràng và cụ thể để tối ưu hóa, trong khi KNN và Decision Tree không có hàm mục tiêu tường minh."
+    },
+    {
+      "question": "Mục tiêu cuối cùng khi học hồi quy tuyến tính là gì?",
+      "answer": "Mục tiêu là tìm vector trọng số w làm giảm thiểu loss trên dữ liệu huấn luyện và đồng thời tổng quát tốt trên dữ liệu kiểm thử."
+    },
+    {
+      "question": "Linear regression được minh họa trực quan như thế nào?",
+      "answer": "Nó giống như việc khớp một đường thẳng (line) hoặc một siêu phẳng (hyperplane) với một tập hợp các điểm dữ liệu."
+    },
+    {
+      "question": "Điều gì xảy ra nếu quan hệ đầu vào–đầu ra không được mô hình hóa tốt bằng đường thẳng/phẳng?",
+      "answer": "Khi quan hệ thực sự là phi tuyến (nonlinear curve/surface), một đường thẳng có thể không mô tả tốt dữ liệu."
+    },
+    {
+      "question": "Trong trường hợp dữ liệu có quan hệ phi tuyến, mô hình tuyến tính có còn hữu ích không?",
+      "answer": "Có. Ta có thể biến đổi đầu vào bằng một phép biến đổi φ(x), sau đó vẫn sử dụng mô hình tuyến tính: y ≈ w^T φ(x)."
+    },
+    {
+      "question": "Phép biến đổi φ(x) có thể được thực hiện như thế nào?",
+      "answer": "Phép biến đổi φ(x) có thể được xác định sẵn (predefined), hoặc được học bằng các phương pháp như kernel methods hay sử dụng mạng neural để trích xuất đặc trưng."
+    },
+    {
+      "question": "Mô hình hồi quy tuyến tính sau khi học cần đảm bảo điều gì với dữ liệu kiểm thử?",
+      "answer": "Đường thẳng/phẳng đã học phải dự đoán tốt cả với các dữ liệu chưa từng thấy (unseen test inputs)."
+    },
+{
+      "question": "Làm thế nào để tìm điểm cực tiểu (minima) của hàm loss?",
+      "answer": "Có thể sử dụng phép tính giải tích cơ bản (calculus) để tìm cực tiểu."
+    },
+    {
+      "question": "Điều kiện tối ưu bậc một (first-order optimality) là gì?",
+      "answer": "Gradient g phải bằng 0 tại điểm cực trị: g = ∇w L(w) = 0."
+    },
+    {
+      "question": "Ý nghĩa của việc gọi là 'first order' là gì?",
+      "answer": "Vì chỉ dùng gradient, cung cấp thông tin bậc một về hàm số đang được tối ưu."
+    },
+    {
+      "question": "Phương pháp first-order optimality áp dụng được trong trường hợp nào?",
+      "answer": "Chỉ hoạt động tốt cho các bài toán đơn giản, khi hàm mục tiêu là convex và không có ràng buộc trên các giá trị của w."
+    },
+    {
+      "question": "Nếu giải được g = 0, ta thu được gì?",
+      "answer": "Có thể tìm được nghiệm dạng đóng (closed form solution) cho w."
+    },
+    {
+      "question": "Nếu không có nghiệm dạng đóng, gradient g được dùng thế nào?",
+      "answer": "Có thể dùng trong các thuật toán tối ưu lặp (iterative optimization) như gradient descent (GD)."
+    },
+    {
+      "question": "Ngay cả khi tồn tại nghiệm dạng đóng, gradient descent có thể hữu ích không?",
+      "answer": "Có. Trong một số trường hợp, GD vẫn có thể hiệu quả hơn."
+    },
+{
+      "question": "Có những loại loss function nào thường dùng trong regression?",
+      "answer": "Một số loại loss function thường dùng: Squared loss, Absolute loss, Huber loss, và ε-insensitive loss (Vapnik loss)."
+    },
+    {
+      "question": "Squared loss có đặc điểm gì?",
+      "answer": "Squared loss được dùng rất phổ biến trong regression vì dễ giải bài toán tối ưu."
+    },
+    {
+      "question": "Absolute loss có ưu điểm gì?",
+      "answer": "Absolute loss tăng chậm hơn squared loss, phù hợp khi dữ liệu có outliers."
+    },
+    {
+      "question": "Huber loss hoạt động như thế nào?",
+      "answer": "Huber loss sử dụng squared loss cho lỗi nhỏ (|error| ≤ δ) và absolute loss cho lỗi lớn, phù hợp với dữ liệu có outliers."
+    },
+    {
+      "question": "ε-insensitive loss (Vapnik loss) là gì?",
+      "answer": "Đây là hàm loss bỏ qua các lỗi nhỏ (≤ ε) và tính absolute loss cho lỗi lớn hơn ε. Có thể thay absolute loss bằng squared loss."
+    },
+    {
+      "question": "Việc chọn loss function phụ thuộc vào yếu tố nào?",
+      "answer": "Thường phụ thuộc vào bản chất dữ liệu. Một số loss function giúp tối ưu dễ hơn các loss khác."
+    },
+{
+      "question": "Gradient Descent được sử dụng để làm gì?",
+      "answer": "Gradient Descent là một phương pháp tối ưu hóa lặp để tìm nghiệm tối ưu bằng cách di chuyển theo hướng ngược lại của gradient."
+    },
+    {
+      "question": "Làm thế nào để cập nhật tham số w trong Gradient Descent?",
+      "answer": "Tại mỗi vòng lặp t: tính gradient g^(t), chọn learning rate η_t, rồi cập nhật w^(t+1) = w^(t) - η_t g^(t)."
+    },
+    {
+      "question": "Có thể dùng Gradient Descent cho bài toán maximization không?",
+      "answer": "Có, ta dùng Gradient Ascent với công thức w^(t+1) = w^(t) + η_t g^(t)."
+    },
+    {
+      "question": "Gradient cung cấp thông tin gì?",
+      "answer": "Gradient cho biết hướng thay đổi nhanh nhất (steepest change) của giá trị hàm."
+    },
+    {
+      "question": "Gradient Descent có đảm bảo hội tụ không?",
+      "answer": "Với hàm convex, Gradient Descent sẽ hội tụ về global minima. Với hàm không convex, cần khởi tạo tốt để tránh local minima."
+    },
+    {
+      "question": "Yếu tố quan trọng nào cần chú ý khi dùng Gradient Descent?",
+      "answer": "Learning rate phải được chọn cẩn thận (cố định hoặc thích ứng). Ngoài ra cần kiểm soát điều kiện hội tụ."
+    },
+    {
+      "question": "Tại sao phương pháp này gọi là iterative?",
+      "answer": "Vì nó cần nhiều bước lặp (iterations) mới tìm được nghiệm tối ưu."
+    },
+{
+      "question": "Loss function trong Linear Regression với squared loss được định nghĩa như thế nào?",
+      "answer": "L(w) = Σ (y_n - w^T x_n)^2, với n chạy từ 1 đến N."
+    },
+    {
+      "question": "Có thể viết loss function trên dưới dạng ma trận không?",
+      "answer": "Có, trong ký hiệu ma trận: ||y - Xw||² = (y - Xw)^T (y - Xw)."
+    },
+    {
+      "question": "Làm thế nào để tìm w tối ưu?",
+      "answer": "Ta tìm w sao cho tối thiểu hóa squared loss, dùng điều kiện tối ưu bậc nhất."
+    },
+    {
+      "question": "Bài toán Least Squares (LS) có đặc điểm gì?",
+      "answer": "Đây là một bài toán cổ điển từ thế kỷ 18 (Gauss-Legendre) và có nghiệm đóng (closed form solution)."
+    },
+    {
+      "question": "Công thức nghiệm đóng của Linear Regression là gì?",
+      "answer": "w_LS = (Σ x_n x_n^T)^(-1) (Σ y_n x_n) = (X^T X)^(-1) X^T y."
+    },
+    {
+      "question": "Nghiệm đóng có phổ biến trong ML không?",
+      "answer": "Không, nghiệm đóng trong các bài toán Machine Learning là khá hiếm."
+    },
+    {
+      "question": "Có khó khăn nào khi tính nghiệm đóng không?",
+      "answer": "Có, việc nghịch đảo ma trận D×D có thể rất tốn kém. Sẽ có các cách xử lý khác được thảo luận sau."
+    },
+{
+      "question": "Mục tiêu của phép chứng minh trong slide này là gì?",
+      "answer": "Tìm nghiệm tối ưu (minima) của hàm loss L(w) = Σ (y_n - w^T x_n)^2."
+    },
+    {
+      "question": "Bước đầu tiên để tìm nghiệm tối ưu là gì?",
+      "answer": "Lấy đạo hàm bậc nhất của L(w) theo w và đặt bằng 0."
+    },
+    {
+      "question": "Khi lấy đạo hàm ∂/∂w (y_n - w^T x_n)^2 thì ta được gì?",
+      "answer": "Ta được Σ 2(y_n - w^T x_n)(-x_n)."
+    },
+    {
+      "question": "Kết quả của đạo hàm ∂/∂w (w^T x_n) là gì?",
+      "answer": "Kết quả bằng x_n, có cùng kích thước với w."
+    },
+    {
+      "question": "Sau khi rút gọn, phương trình gradient bằng 0 có dạng gì?",
+      "answer": "Σ 2(y_n - w^T x_n) x_n = 0."
+    },
+    {
+      "question": "Làm sao để tách w trong phương trình trên?",
+      "answer": "Viết lại thành Σ y_n x_n - Σ x_n x_n^T w = 0."
+    },
+    {
+      "question": "Nghiệm cuối cùng của w là gì?",
+      "answer": "w_LS = (Σ x_n x_n^T)^(-1) (Σ y_n x_n) = (X^T X)^(-1) X^T y."
+    },
+{
+      "question": "Khi tối ưu hàm L(w) = Σ (y_n - w^T x_n)^2, ta thu được nghiệm như thế nào?",
+      "answer": "w_LS = (Σ x_n x_n^T)^(-1) (Σ y_n x_n) = (X^T X)^(-1) X^T y."
+    },
+    {
+      "question": "Vấn đề gì có thể xảy ra với ma trận X^T X?",
+      "answer": "Ma trận X^T X có thể không khả nghịch, dẫn đến nghiệm tối ưu w_opt không duy nhất."
+    },
+    {
+      "question": "Vấn đề thứ hai của lời giải này là gì?",
+      "answer": "Hiện tượng overfitting, do chỉ tối ưu loss trên tập train. Các trọng số w có thể trở nên rất lớn để fit dữ liệu huấn luyện, nhưng hoạt động kém trên dữ liệu test."
+    },
+    {
+      "question": "Giải pháp được đề xuất để khắc phục các vấn đề là gì?",
+      "answer": "Tối ưu một hàm mục tiêu có regularization: L(w) + λ R(w)."
+    },
+    {
+      "question": "Regularizer R(w) có vai trò gì?",
+      "answer": "R(w) đo độ lớn (magnitude) của vector w, giúp ngăn w không trở nên quá lớn."
+    },
+    {
+      "question": "Ý nghĩa của λ trong hàm mục tiêu là gì?",
+      "answer": "λ ≥ 0 là siêu tham số điều chuẩn (regularization hyperparameter), kiểm soát mức độ regularize, cần điều chỉnh bằng cross-validation."
+    },
+    {
+      "question": "Khi thêm regularization, ta thực chất đang tối ưu cái gì?",
+      "answer": "Đang tối ưu tổng của training error và magnitude của vector w."
+    }
+ ]
