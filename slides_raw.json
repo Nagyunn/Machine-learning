@@ -222,5 +222,161 @@
     {
       "question": "Khi thêm regularization, ta thực chất đang tối ưu cái gì?",
       "answer": "Đang tối ưu tổng của training error và magnitude của vector w."
-    }
+    },
+  {
+    "question": "Ý nghĩa của các tham số trong hồi quy tuyến tính?",
+    "answer": "w (hệ số góc): cho biết khi x tăng 1 đơn vị thì y thay đổi trung bình bao nhiêu. b (hệ số chặn): giá trị dự đoán khi x=0."
+  },
+  {
+    "question": "Hàm mất mát trong hồi quy tuyến tính là gì?",
+    "answer": "Hàm mất mát phổ biến là Mean Squared Error (MSE): L(w,b) = (1/n) Σ (y_i - (w*x_i + b))^2."
+  },
+  {
+    "question": "Gradient Descent là gì?",
+    "answer": "Gradient Descent là thuật toán tối ưu để tìm w, b sao cho hàm mất mát nhỏ nhất. Nó điều chỉnh w, b theo hướng giảm sai số."
+  },
+  {
+    "question": "Quy tắc cập nhật của Gradient Descent?",
+    "answer": "w := w - α * ∂L/∂w, b := b - α * ∂L/∂b. Trong đó α là learning rate."
+  },
+  {
+    "question": "Công thức đạo hàm trong Gradient Descent?",
+    "answer": "∂L/∂w = (-2/n) Σ [ x_i * (y_i - (w*x_i + b)) ], ∂L/∂b = (-2/n) Σ [ y_i - (w*x_i + b) ]."
+  },
+  {
+    "question": "Các bước thực hiện Gradient Descent?",
+    "answer": "1. Khởi tạo w, b. 2. Tính gradient. 3. Cập nhật w, b. 4. Lặp lại cho đến khi hội tụ."
+  },
+{
+    "question": "Evaluation Measures for Multi-class Classification là gì?",
+    "answer": "Đây là tập hợp các phép đo đánh giá mô hình phân loại với nhiều lớp, bao gồm accuracy, confusion matrix, precision, recall, và F1-score."
+  },
+  {
+    "question": "Công thức Accuracy trong multi-class classification?",
+    "answer": "accuracy = (TP_total) / (TP_total + FP_total + FN_total + TN_total)"
+  },
+  {
+    "question": "Công thức Precision cho từng lớp k?",
+    "answer": "precision_k = TP_k / (TP_k + FP_k)"
+  },
+  {
+    "question": "Công thức Recall cho từng lớp k?",
+    "answer": "recall_k = TP_k / (TP_k + FN_k)"
+  },
+  {
+    "question": "Công thức F1-score cho từng lớp k?",
+    "answer": "F1_k = 2 * (precision_k * recall_k) / (precision_k + recall_k)"
+  },
+  {
+    "question": "Macro average và Micro average khác nhau như thế nào?",
+    "answer": "Macro-average tính trung bình số học trên từng lớp, Micro-average tính trên tổng TP, FP, FN trước khi tính chỉ số."
+  },
+  {
+    "question": "Một số hàm mất mát khác cho Binary Classification ngoài Cross-Entropy?",
+    "answer": "Có hinge loss, squared hinge, logistic loss, focal loss, exponential loss."
+  },
+  {
+    "question": "Công thức Binary Cross-Entropy?",
+    "answer": "L = -[ y * log(p) + (1 - y) * log(1 - p) ]"
+  },
+  {
+    "question": "Công thức Hinge Loss?",
+    "answer": "L = max(0, 1 - y * f(x)), với y ∈ {-1,+1}"
+  },
+  {
+    "question": "Công thức Squared Hinge Loss?",
+    "answer": "L = (max(0, 1 - y * f(x)))^2"
+  },
+  {
+    "question": "Công thức Focal Loss?",
+    "answer": "L = - (1 - p_t)^γ * log(p_t), với p_t = p nếu y=1, ngược lại 1-p"
+  },
+  {
+    "question": "Linear Models for Classification là gì?",
+    "answer": "Là các mô hình dựa trên hàm tuyến tính f(x)=w^T x + b, ví dụ như Logistic Regression, Perceptron, LDA, và SVM."
+  },
+  {
+    "question": "Công thức Logistic Sigmoid trong phân loại?",
+    "answer": "σ(z) = 1 / (1 + exp(-z)), p(y=1|x) = σ(w^T x + b)"
+  },
+  {
+    "question": "Công thức Softmax cho phân loại đa lớp?",
+    "answer": "p(C_k|x) = exp(w_k^T x + b_k) / Σ_j exp(w_j^T x + b_j)"
+  },
+  {
+    "question": "Cross-Entropy Loss: The Gradient có đặc điểm gì?",
+    "answer": "Đạo hàm của cross-entropy kết hợp với sigmoid/softmax rất đơn giản: gradient theo logits là (p - y)."
+  },
+  {
+    "question": "Công thức Gradient cho Binary Cross-Entropy?",
+    "answer": "dL/dz = σ(z) - y"
+  },
+  {
+    "question": "Công thức Gradient cho Categorical Cross-Entropy?",
+    "answer": "dL/dz_j = p_j - y_j (cho softmax + cross-entropy)"
+  },
+  {
+    "question": "Loss Functions for Classification: Cross-Entropy là gì?",
+    "answer": "Là hàm mất mát đo khoảng cách giữa phân phối thực tế (one-hot) và phân phối dự đoán, được dùng phổ biến nhất cho phân loại."
+  },
+  {
+    "question": "Công thức Categorical Cross-Entropy?",
+    "answer": "L = - Σ_{k=1..K} y_k log(p_k), với p_k = exp(z_k) / Σ_j exp(z_j)"
+  },
+{
+    "question": "Loss Functions for Classification là gì?",
+    "answer": "Là các hàm mất mát dùng để huấn luyện mô hình phân loại, nhằm đo độ sai lệch giữa nhãn dự đoán và nhãn thực tế."
+  },
+  {
+    "question": "Các loại Loss phổ biến cho Classification?",
+    "answer": "Bao gồm: Cross-Entropy Loss, Hinge Loss, Squared Hinge Loss, Logistic Loss, và Focal Loss."
+  },
+  {
+    "question": "Công thức Cross-Entropy Loss cho nhị phân?",
+    "answer": "L = - [ y * log(p) + (1 - y) * log(1 - p) ]"
+  },
+  {
+    "question": "Công thức Cross-Entropy Loss cho đa lớp?",
+    "answer": "L = - Σ_{k=1..K} y_k log(p_k), với p_k là xác suất softmax."
+  },
+  {
+    "question": "Linear Classification: Interpreting weight vectors nghĩa là gì?",
+    "answer": "Là cách hiểu các vector trọng số (w) trong mô hình tuyến tính để biết đặc trưng nào ảnh hưởng mạnh nhất đến quyết định phân loại."
+  },
+  {
+    "question": "Ý nghĩa dấu và độ lớn của trọng số w?",
+    "answer": "Dấu (+/-) cho biết ảnh hưởng tích cực hay tiêu cực đến xác suất một lớp; độ lớn |w_d| cho biết mức độ quan trọng của đặc trưng x_d."
+  },
+  {
+    "question": "Công thức mô hình phân loại tuyến tính?",
+    "answer": "f(x) = w^T x + b, trong đó w là vector trọng số, b là bias."
+  },
+  {
+    "question": "Linear Models: The Decision Boundary là gì?",
+    "answer": "Là đường hoặc siêu phẳng phân chia không gian đặc trưng thành các vùng quyết định cho từng lớp."
+  },
+  {
+    "question": "Công thức biên quyết định trong 2D?",
+    "answer": "w^T x + b = 0, đây là một đường thẳng phân chia mặt phẳng thành hai nửa."
+  },
+  {
+    "question": "Công thức biên quyết định trong n-D?",
+    "answer": "w^T x + b = 0 định nghĩa một siêu phẳng (hyperplane) trong không gian n chiều."
+  },
+  {
+    "question": "Linear Models for Classification là gì?",
+    "answer": "Là nhóm mô hình phân loại dựa trên tổ hợp tuyến tính của đầu vào, ví dụ Logistic Regression, Linear Discriminant Analysis (LDA), và Support Vector Machine (SVM)."
+  },
+  {
+    "question": "Mô hình Logistic Regression thuộc nhóm nào?",
+    "answer": "Logistic Regression là mô hình phân loại tuyến tính dựa trên sigmoid (cho nhị phân) hoặc softmax (cho đa lớp)."
+  },
+  {
+    "question": "Mô hình Perceptron thuộc nhóm nào?",
+    "answer": "Perceptron là mô hình phân loại tuyến tính cơ bản, đưa ra quyết định dựa trên dấu của w^T x + b."
+  },
+  {
+    "question": "Support Vector Machine có phải là mô hình tuyến tính không?",
+    "answer": "Đúng, SVM là mô hình phân loại tuyến tính, tìm siêu phẳng phân tách có margin lớn nhất giữa các lớp."
+  }
  ]
