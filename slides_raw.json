@@ -379,4 +379,4 @@
     "question": "Support Vector Machine có phải là mô hình tuyến tính không?",
     "answer": "Đúng, SVM là mô hình phân loại tuyến tính, tìm siêu phẳng phân tách có margin lớn nhất giữa các lớp."
   }
- ]
+]
