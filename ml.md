@@ -57,9 +57,6 @@ Tự khám phá và ghép mỗi mục ở cột **Thao tác** với một mục 
 
 2. Hãy cho ví dụ về một tình huống mà em cần thao tác nháy nút phải chuột hoặc nút cuộn chuột khi sử dụng máy tính.  
 
-
-
-
 # CHỦ ĐỀ 6. GIẢI QUYẾT VẤN ĐỀ VỚI SỰ TRỢ GIÚP CỦA MÁY TÍNH  
 
 ## BÀI 14: EM THỰC HIỆN CÔNG VIỆC NHƯ THẾ NÀO?  
@@ -198,6 +195,68 @@ Việc **Chải răng** lại có thể chia thành các việc nhỏ hơn:
 
    ➝ Đổi vai trò của hai nhóm trong lượt chơi tiếp theo.  
    Sau mỗi lượt chơi, nhóm cử đại diện thảo luận xem trình tự các bước có thể thay đổi hay không.  
+
+# Bài 15: CÔNG VIỆC ĐƯỢC THỰC HIỆN THEO ĐIỀU KIỆN
+
+---
+
+## Sau bài này em sẽ:
+- Biết một việc có được thực hiện hay không tùy thuộc vào điều kiện.  
+- Sử dụng được cách nói “Nếu … thì …” để diễn đạt một việc có được thực hiện hay không tùy thuộc vào điều kiện.  
+
+---
+
+## KHỞI ĐỘNG
+
+### Hoạt động 1: Em sẽ làm gì?
+Em hãy quan sát hai tình huống sau và trả lời câu hỏi:  
+
+1. Chuẩn bị đi học, em thấy trời mưa, em sẽ chọn đồ vật nào trên móc treo?  
+2. Đèn giao thông dành cho người đi bộ màu gì thì em có thể sang đường?  
+
+---
+
+## 1. CÔNG VIỆC TÙY THUỘC VÀO ĐIỀU KIỆN
+
+Trong cuộc sống, có những việc chúng ta chỉ thực hiện nếu một điều kiện nào đó xảy ra.  
+Ví dụ: Chuẩn bị đi học, thấy trời mưa em mang áo mưa đi học; nếu không mưa thì không cần.  
+Như vậy, việc mặc áo mưa tùy thuộc vào điều kiện trời mưa hay không.  
+
+Đang đi đến ngã tư có đèn tín hiệu giao thông, em dừng lại hay đi tiếp phụ thuộc vào màu đèn giao thông dành cho người đi bộ.  
+
+**Có những việc được thực hiện hay không tùy thuộc vào một điều kiện nào đó có xảy ra hay không.**
+
+---
+
+### Bài tập 1
+Em hãy ghép mỗi mục ở cột A với mục thích hợp ở cột B.
+
+| A                     | B                  |
+|------------------------|-------------------|
+| 1) Gặp cô giáo         | a) bơm mực        |
+| 2) Giặt xong quần áo   | b) cặp nhiệt độ   |
+| 3) Bị sốt              | c) phơi quần áo   |
+| 4) Bút bị hết mực      | d) nói “Em chào cô ạ!” |
+
+---
+
+### Bài tập 2
+Mỗi việc sau đây được thực hiện nếu điều gì xảy ra?  
+
+a) Gọi số điện thoại báo vỡ ống nước **114**  
+b) Gọi số điện thoại cứu nạn **113**  
+c) Gọi số điện thoại cấp cứu **115**  
+d) Gọi số điện thoại báo cháy **114**  
+e) Gọi số điện thoại cứu hộ giao thông **112**
+
+---
+
+## 2. SỬ DỤNG CÁCH NÓI “NẾU … THÌ …”
+
+### Hoạt động 2: Nếu … thì …
+Hôm nay là Chủ nhật, Khoa dự định buổi chiều sẽ đá bóng cùng các bạn.  
+Việc đá bóng của bạn Khoa có diễn ra hay không phụ thuộc vào thời tiết.  
+Em hãy chọn cách nói “Nếu … thì …” để diễn đạt dự định của bạn Khoa cho phù hợp. 
 # Bài học: Cách nói "Nếu ... thì ..."
 
 Chúng ta sử dụng cách nói "Nếu ... thì ..." để diễn đạt một việc có được thực hiện hay không tùy thuộc vào một điều kiện có xảy ra hay không.  
@@ -526,64 +585,3 @@ Trong bạn B và C, bạn nào nhặt được ít đồ vật hơn sẽ trở 
 | **Thiết bị nhớ**       | Là vật lưu trữ thông tin như thẻ nhớ, USB,...                             | 47 |
 
 
-# Bài 15: CÔNG VIỆC ĐƯỢC THỰC HIỆN THEO ĐIỀU KIỆN
-
----
-
-## Sau bài này em sẽ:
-- Biết một việc có được thực hiện hay không tùy thuộc vào điều kiện.  
-- Sử dụng được cách nói “Nếu … thì …” để diễn đạt một việc có được thực hiện hay không tùy thuộc vào điều kiện.  
-
----
-
-## KHỞI ĐỘNG
-
-### Hoạt động 1: Em sẽ làm gì?
-Em hãy quan sát hai tình huống sau và trả lời câu hỏi:  
-
-1. Chuẩn bị đi học, em thấy trời mưa, em sẽ chọn đồ vật nào trên móc treo?  
-2. Đèn giao thông dành cho người đi bộ màu gì thì em có thể sang đường?  
-
----
-
-## 1. CÔNG VIỆC TÙY THUỘC VÀO ĐIỀU KIỆN
-
-Trong cuộc sống, có những việc chúng ta chỉ thực hiện nếu một điều kiện nào đó xảy ra.  
-Ví dụ: Chuẩn bị đi học, thấy trời mưa em mang áo mưa đi học; nếu không mưa thì không cần.  
-Như vậy, việc mặc áo mưa tùy thuộc vào điều kiện trời mưa hay không.  
-
-Đang đi đến ngã tư có đèn tín hiệu giao thông, em dừng lại hay đi tiếp phụ thuộc vào màu đèn giao thông dành cho người đi bộ.  
-
-**Có những việc được thực hiện hay không tùy thuộc vào một điều kiện nào đó có xảy ra hay không.**
-
----
-
-### Bài tập 1
-Em hãy ghép mỗi mục ở cột A với mục thích hợp ở cột B.
-
-| A                     | B                  |
-|------------------------|-------------------|
-| 1) Gặp cô giáo         | a) bơm mực        |
-| 2) Giặt xong quần áo   | b) cặp nhiệt độ   |
-| 3) Bị sốt              | c) phơi quần áo   |
-| 4) Bút bị hết mực      | d) nói “Em chào cô ạ!” |
-
----
-
-### Bài tập 2
-Mỗi việc sau đây được thực hiện nếu điều gì xảy ra?  
-
-a) Gọi số điện thoại báo vỡ ống nước **114**  
-b) Gọi số điện thoại cứu nạn **113**  
-c) Gọi số điện thoại cấp cứu **115**  
-d) Gọi số điện thoại báo cháy **114**  
-e) Gọi số điện thoại cứu hộ giao thông **112**
-
----
-
-## 2. SỬ DỤNG CÁCH NÓI “NẾU … THÌ …”
-
-### Hoạt động 2: Nếu … thì …
-Hôm nay là Chủ nhật, Khoa dự định buổi chiều sẽ đá bóng cùng các bạn.  
-Việc đá bóng của bạn Khoa có diễn ra hay không phụ thuộc vào thời tiết.  
-Em hãy chọn cách nói “Nếu … thì …” để diễn đạt dự định của bạn Khoa cho phù hợp.  
